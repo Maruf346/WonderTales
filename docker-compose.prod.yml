@@ -1,0 +1,41 @@
+services:
+  backend:
+    image: shemanto27/wondertales:backend-latest
+    container_name: wondertales-backend
+    ports:
+      - "8000:8000"
+    command: python -m gunicorn core.wsgi:application --bind 0.0.0.0:8000 --workers 4 --timeout 300 --access-logfile - --error-logfile -
+    env_file:
+      - backend/.env
+    restart: always
+    networks:
+      - wondertales-net
+
+  ai:
+    image: shemanto27/wondertales:ai-latest
+    container_name: wondertales-ai
+    ports:
+      - "8050:8000"
+    env_file:
+      - ai/.env
+    restart: always
+    volumes:
+      - ai-audio:/app/audio_files
+    networks:
+      - wondertales-net
+
+  landingpage:
+    image: shemanto27/wondertales:landingpage-latest
+    container_name: wondertales-landingpage
+    ports:
+      - "8080:80"
+    restart: always
+    networks:
+      - wondertales-net
+
+networks:
+  wondertales-net:
+    driver: bridge
+
+volumes:
+  ai-audio:

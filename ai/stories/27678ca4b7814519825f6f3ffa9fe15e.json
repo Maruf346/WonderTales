@@ -1,0 +1,19 @@
+{
+  "child_profile": {
+    "name": "dola",
+    "age": 10,
+    "interests": [
+      "advanture"
+    ]
+  },
+  "language": "en",
+  "narrator_voice": "primary_male",
+  "theme": "adventure",
+  "custom_theme": null,
+  "cloned_voice_id": "MxdYD0ta8ByAACSOqwwk",
+  "story_text": "Once upon a time, in a cozy little village nestled between misty mountains and whispering woods, there lived a spirited girl named Isla. Isla loved nothing more than the thought of adventure. Her heart danced at the stories of grand quests her grandmother told her each night before bed. But one crisp morning, as she sat by the bubbling brook in her backyard, something magical happened.\n\nAs Isla dipped her fingers into the cool water, a shimmering rainbow fish leaped out, its scales twinkling like tiny jewels. It flipped in the air, landing with a splash, then turned to Isla, speaking softly. \"Follow me, young adventurer. There's a world beyond the brook waiting to be explored.\"\n\nWith a giggle of excitement, Isla hopped up and ran after the fish, her bare feet pattering along the mossy bank. They passed through the trees where sunlight played peek-a-boo with the leaves and soon arrived at a hidden glen Isla had never seen before.\n\nIn this secret place, the air was filled with the scent of wildflowers, and butterflies fluttered like living confetti. At the center stood a grand, ancient tree with a doorway carved into its trunk. The rainbow fish circled the door and winked. \"Inside is the Enchanted Forest,\" it said. \"Your adventure awaits.\"\n\nIsla took a breath of courage and stepped inside. Immediately, she was greeted by the sound of melodic birdsong and the sight of towering ferns. Magic tingled in the air, making the leaves shimmer with a silvery glow. As she wandered through the forest, she met friendly woodland creatures. A wise old owl shared tales of the stars, and a playful fox led her to a hidden waterfall where the water sparkled like diamonds under the sun.\n\nWith every step, Isla felt a wonderful sense of peace and wonder. The forest seemed to hum a gentle lullaby, and as the shadows grew longer, the rainbow fish appeared once more. \"It's time for dreams now, Isla,\" it whispered kindly. \"Remember, every adventure brings you closer to your heart.\"\n\nReluctantly, Isla retraced her steps back through the tree and returned to the brook, where the moon now reflected softly on the water. The rainbow fish nodded farewell, diving back into the depths with a shimmering splash.\n\nAs Isla tiptoed home, her heart felt warm and her eyelids grew heavy. She snuggled into bed, letting the comforting memories of the Enchanted Forest wrap around her like a cozy blanket. With a happy sigh, she closed her eyes, dreaming of the adventures that awaited in tomorrow's waking world. And soon, she was fast asleep, peaceful and content.",
+  "audio_url": "http://localhost:8050/audio/48010b7af78d46deab62bc2606c18e53.mp3",
+  "voice_used": "MxdYD0ta8ByAACSOqwwk",
+  "story_id": "27678ca4b7814519825f6f3ffa9fe15e",
+  "updated_at": "2026-05-07T21:30:34.040051+00:00"
+}

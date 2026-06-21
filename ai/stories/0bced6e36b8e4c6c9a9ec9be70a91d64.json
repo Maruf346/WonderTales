@@ -1,0 +1,20 @@
+{
+  "child_profile": {
+    "name": "Amara",
+    "age": 7,
+    "interests": [
+      "Moon",
+      "space"
+    ]
+  },
+  "language": "en",
+  "narrator_voice": "primary_male",
+  "theme": "bedtime",
+  "custom_theme": "string",
+  "cloned_voice_id": "ro27VgYqx9ajlYaHbAKd",
+  "story_text": "In a cozy little town where the stars twinkled like tiny lanterns in the night sky, lived a curious girl named Amara. Each evening, as the sun bid farewell, she would climb into bed with her window open just enough to let the moonlight dance inside her room. Amara loved the Moon dearly, imagining it was her friend who watched over her as she dreamed.\n\nOne night, as Amara lay tucked beneath her soft, fluffy blankets, she whispered to the Moon, \"Oh Moon, I wish I could visit you and see the stars up close.\" To her surprise, the Moon's gentle glow twinkled a little brighter, and a soft, silvery voice replied, \"Close your eyes, Amara. I have a special journey for you.\"\n\nAmara closed her eyes, and in an instant, she felt a gentle breeze lift her. She was floating, floating higher and higher, past the big oak tree outside her window, past the clouds that looked like puffs of cotton candy, and into the starry night. She giggled as the stars winked at her, feeling like a warm hug.\n\nBefore long, Amara landed softly on the Moon's glowing surface. It was smooth and cool to the touch, like fine dust beneath her feet. The Moon smiled down at her, casting a silvery path that led straight to a garden filled with shimmering starflowers. Each flower was a twinkling star, and as Amara walked through them, they hummed a sweet, sleepy tune.\n\nThe Moon told her stories of how each star had its own name and how they sang lullabies to the galaxies every night. Amara listened, her heart filled with wonder and peace. She picked a starflower and tucked it safely in her pocket, knowing it would glow gently to light her way home.\n\nWith a gentle whisper, the Moon said, \"It's time for you to return, dear Amara.\" She felt the breeze once more and found herself floating back through the night sky, past the clouds, and finally into her own cozy bed.\n\nAs Amara opened her eyes, she saw the starflower glowing softly, casting a gentle light in her room. \"Thank you, Moon,\" she murmured, feeling warm and content.\n\nShe snuggled deeper under her blankets, the starflower's glow a comforting nightlight beside her. With a yawn and a sleepy sigh, Amara drifted into a peaceful slumber, dreaming of stars and the Moon, knowing she was wrapped in their gentle embrace. And so, sleep found her easily, cradled in the serene glow of her celestial friend.",
+  "audio_url": "http://127.0.0.1:8050/audio/dcda69aadeeb403fa7d20aa86bf2feb2.mp3",
+  "voice_used": "ro27VgYqx9ajlYaHbAKd",
+  "story_id": "0bced6e36b8e4c6c9a9ec9be70a91d64",
+  "updated_at": "2026-05-03T03:21:52.041807+00:00"
+}

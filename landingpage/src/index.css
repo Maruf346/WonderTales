@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Averia Serif Libre', serif;
+
+  /* Exact colors sampled from the design PNG */
+  --color-navy-950: #060B3F;
+  --color-navy-900: #090E4C;
+  --color-navy-800: #0E1264;
+  --color-navy-700: #141878;
+  --color-navy-600: #1a1e8a;
+  --color-gold: #E8A020;
+  --color-gold-light: #F5C060;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: var(--font-sans);
+    background-color: var(--color-navy-950);
+    color: #c8cee0;
+  }
+
+  body.custom-cursor-active,
+  body.custom-cursor-active a,
+  body.custom-cursor-active button,
+  body.custom-cursor-active [role="button"],
+  body.custom-cursor-active input,
+  body.custom-cursor-active select,
+  body.custom-cursor-active textarea {
+    cursor: none !important;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}

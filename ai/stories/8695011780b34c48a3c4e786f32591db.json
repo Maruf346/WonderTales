@@ -1,0 +1,19 @@
+{
+  "child_profile": {
+    "name": "dola",
+    "age": 10,
+    "interests": [
+      "advanture"
+    ]
+  },
+  "language": "en",
+  "narrator_voice": "primary_female",
+  "theme": "adventure",
+  "custom_theme": null,
+  "cloned_voice_id": null,
+  "story_text": "Once upon a time, in the gentle kingdom of Willow Glen, there was a curious boy named Dola. He had a heart full of wonder and feet eager for adventure. One sunny morning, while exploring the soft, rolling hills near his home, Dola stumbled upon a shimmering path of silver pebbles he'd never seen before.\n\nIntrigued, Dola followed the sparkling trail as it wound through fields of dancing wildflowers and under the shade of ancient oak trees. As he walked, a soft breeze played with his hair, and the gentle songs of unseen birds filled the air. Dola's excitement grew with every step.\n\nThe path led him to the edge of a glistening stream, its waters whispering secrets as it flowed. There, an old, wise turtle named Tully sat sunning himself on a smooth, flat rock. His eyes twinkled like stars as he spoke, \"Ah, young adventurer, you have found the Path of Wonders. It is a trail known only to those who seek with a pure heart.\"\n\nDola listened intently as Tully explained that the path would guide him to the Enchanted Orchard, where the fruit held the sweetest dreams. Thanking Tully, Dola continued his journey, feeling the world around him hum with magic.\n\nAlong the way, he met a pair of playful rabbits who offered him a ride on their cozy leaf boat across a gentle pond. Together, they sailed through swirls of lily pads, gliding smoothly until they reached the far shore.\n\nAs the afternoon sun began to dip, casting golden hues across the land, Dola finally arrived at the Enchanted Orchard. It was a place where every tree bent with the weight of glowing fruit—apples with the color of twilight, pears that shimmered like captured moonlight.\n\nDola reached for an apple, and as he took a bite, a warm, sleepy contentment washed over him. The world seemed to slow, and the soft music of the orchard lulled him into a gentle tranquility. Clouds turned pink and purple as the sky began to bid goodbye to the day.\n\nKnowing it was time to return home, Dola picked a few more fruits to share with his family. He retraced his steps, feeling as though he floated on a cloud of peace. The air was cool and soothing against his skin as the stars began to peek out, lighting his way back.\n\nFinally, as he reached his cozy house, Dola's heart was full of the day's mysteries. He slipped into bed, still tasting the sweetness of the enchanted fruit. As his eyes fluttered softly closed, he dreamed of new adventures, where every journey ends with the promise of another tomorrow. And with that thought, Dola drifted into a restful, contented sleep.",
+  "audio_url": "http://localhost:8050/audio/ff3d82230217410f9bad60fde96127cf.mp3",
+  "voice_used": "primary_female",
+  "story_id": "8695011780b34c48a3c4e786f32591db",
+  "updated_at": "2026-05-07T20:48:38.845041+00:00"
+}

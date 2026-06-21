@@ -1,0 +1,20 @@
+{
+  "child_profile": {
+    "name": "Amara",
+    "age": 6,
+    "interests": [
+      "dinosaurs",
+      "space"
+    ]
+  },
+  "language": "en",
+  "narrator_voice": "primary_female",
+  "theme": "bedtime",
+  "custom_theme": "string",
+  "cloned_voice_id": "unKqxdFG7GzGra7WKjxy",
+  "story_text": "In a cozy little town under a twinkling night sky, lived a bright and curious girl named Amara. Amara had two great loves: dinosaurs and space. She often dreamed of adventures where the stars and the ancient giants met.\n\nOne night, as she snuggled into her soft bed, her room began to twinkle with tiny lights. Amara blinked and saw they were not lights, but tiny, sparkling stars floating right inside her room! They danced and shimmered, painting the ceiling with gentle, glowing patterns.\n\nAmara closed her eyes, and in the blink of a sleepy eye, she found herself on a magical journey. She was soaring through the sky, past the moon, and into a world of gentle blues and greens. This world was not like Earth. It was a planet called Dinolune, a place where dinosaurs roamed freely among colorful comets and shooting stars.\n\nAmara landed softly on a bed of stardust, where a friendly, little dinosaur named Twinkle awaited her. Twinkle was a giggling triceratops with starry spots on her back. “Welcome to Dinolune, Amara!” Twinkle said with a warm smile.\n\nTogether, they wandered through lush, soft grasslands, under skies that rippled with hues of purple and gold. The dinosaurs on Dinolune were playful and serene. They moved slowly, as if to the rhythm of a gentle lullaby. Amara and Twinkle played with a baby brontosaurus who loved to chase the glowing fireflies that danced around them.\n\nAs they explored, Twinkle showed Amara the Night Garden—a magical place where flowers bloomed under the starlight, each petal shimmering like a tiny moon. Amara watched in awe as the flowers opened, releasing the sweetest, most calming fragrance that made her feel light and dreamy inside.\n\nThe time to say goodbye came gently, like a whisper. Twinkle gave Amara a glowing star to keep, a reminder of the beautiful world they had shared. “Whenever you need a place to dream, just look to the stars,” Twinkle said with a wink.\n\nAs the stars began to softly sing a lullaby, Amara felt herself drifting back to her cozy bed. She opened her eyes to her familiar room, where the moonlight painted silver patterns on the walls.\n\nClutching the imaginary star, Amara felt a warm, sleepy contentment settle over her. She knew that her magical adventure with Twinkle would always be just a dream away. With a gentle sigh and a smile, Amara drifted peacefully into her dreams, as the stars outside winked their goodnight.",
+  "audio_url": "http://localhost:8050/audio/5f4eecffca114419872e2dc8bfb467cd.mp3",
+  "voice_used": "unKqxdFG7GzGra7WKjxy",
+  "story_id": "dd9f428b88344d6cb4eee8293d827efb",
+  "updated_at": "2026-04-30T10:17:13.024568+00:00"
+}

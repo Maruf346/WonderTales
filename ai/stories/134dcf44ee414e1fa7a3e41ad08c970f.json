@@ -1,0 +1,19 @@
+{
+  "child_profile": {
+    "name": "dola",
+    "age": 10,
+    "interests": [
+      "advanture"
+    ]
+  },
+  "language": "en",
+  "narrator_voice": "primary_female",
+  "theme": "adventure",
+  "custom_theme": null,
+  "cloned_voice_id": "aR67g54usBdGsjI2mONr",
+  "story_text": "Once upon a time, in the tranquil village of Willowbrook, nestled between whispering woods and gentle hills, lived a curious girl named Dola. Dola had an insatiable love for adventure. Her eyes sparkled with the warmth of summer stars whenever she thought of exploring the unknown. \n\nOne golden afternoon, Dola discovered a peculiar map tucked inside an old storybook in her grandmother's attic. The map was unlike any she had seen before, with glowing trails that seemed to twinkle under the attic's gentle light. It led to a place called the Glimmering Grove, a secret, magical part of the forest that was said to hold the most beautiful treasures.\n\nDetermined to find the grove, Dola packed her trusty backpack with her favorite snacks, a small flashlight, and her beloved compass. As she ventured into the heart of the woods, the trees swayed softly, whispering secrets only they knew. The sun began its descent, painting the sky in hues of pink and gold.\n\nAlong the way, Dola met a friendly squirrel named Nutters, who offered to guide her. Nutters knew every nook and cranny of the forest. Together, they followed the glimmering paths, hopping over babbling brooks and skipping through patches of fragrant wildflowers.\n\nAs twilight descended, the paths on the map started to glow even brighter, illuminating their way. Dola and Nutters soon arrived at the entrance to the Glimmering Grove. The grove was breathtaking; fireflies danced in the air like tiny lanterns, and the trees shimmered as if dusted with diamonds.\n\nIn the center of the grove stood a great oak tree with a hollow trunk. Inside, Dola found an enchanted mirror. It reflected not her image, but scenes of wonderful adventures yet to come. As she gazed into the mirror, she saw herself sailing on sparkling seas, scaling misty mountains, and discovering new worlds.\n\nFeeling a deep sense of joy and wonder, Dola thanked the grove for its gift of dreams and possibilities. With Nutters by her side, she made her way back home, the night forest singing them a lullaby with its rustling leaves and gentle winds.\n\nWhen Dola finally snuggled into her cozy bed, she felt the warmth of the day's adventure wrap around her like a soft blanket. Knowing that tomorrow held even more adventures, she closed her eyes with a contented sigh. The stars outside her window twinkled peacefully, whispering sweet dreams as she drifted into a restful sleep, her heart full and her dreams limitless.",
+  "audio_url": "http://localhost:8050/audio/ad4e8ddf7b2b4c55b9f5320a8fe9aeff.mp3",
+  "voice_used": "aR67g54usBdGsjI2mONr",
+  "story_id": "134dcf44ee414e1fa7a3e41ad08c970f",
+  "updated_at": "2026-05-07T21:24:28.889169+00:00"
+}

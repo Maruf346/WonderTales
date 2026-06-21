@@ -1,0 +1,2201 @@
+{
+  "child_profile": {
+    "name": "dd",
+    "age": 9,
+    "interests": [
+      "adventure"
+    ]
+  },
+  "language": "en",
+  "narrator_voice": "primary_female",
+  "theme": "fantasy",
+  "custom_theme": null,
+  "cloned_voice_id": "FSouabK2jWZjvnTAcoMd",
+  "story_text": "In a quiet village nestled between rolling green hills and shimmering blue lakes, there lived a young girl named Elara. Elara had a secret: she could speak to the stars. Every night, she would climb up to her favorite spot on a grassy hill with a clear view of the sky and whisper her secrets to the twinkling lights above.\n\nOne particularly clear night, as the moon cast its silver glow over the village, Elara noticed something unusual. Among the stars, one twinkled more brightly than all the others. This star seemed to wink at her, as if sharing a playful secret. Curious and eager, Elara whispered, “Hello, star. What is your story?”\n\nTo her surprise, the star replied in a melodious voice, “I am Stella, the Star of Adventures. If you wish, I can take you on a journey beyond your dreams.”\n\nElara’s eyes sparkled with excitement. “Oh, yes, please! What do I need to do?” she asked eagerly.\n\n“Close your eyes and count to three,” Stella replied, “and hold my light in your heart.”\n\nElara squeezed her eyes shut and counted, “One, two, three…” Instantly, she felt a gentle breeze lift her from the ground. When she opened her eyes, she found herself standing on a fluffy cloud. The view was magnificent; beneath her, the world looked like a quilt of greens and blues.\n\n“Welcome to the Cloud Kingdom,” Stella said, her voice now a gentle whisper. “Here, every cloud knows a story.”\n\nAs Elara floated from cloud to cloud, she met a wise old cloud named Nimbus, who shared stories of far-off lands. She danced with a group of fluffy cloudlets that laughed like tinkling bells, and they taught her how to weave rainbows from sunbeams and dewdrops.\n\nTime in the Cloud Kingdom passed as if in a serene dream. Elara felt light and carefree, as if every worry had melted away into the sky. But as the stars began to glow brighter, Stella spoke again. “It is time to return home, dear Elara. Remember, the stars are always here, watching over you.”\n\nGently, the breeze carried Elara back to her grassy hill. She waved goodbye to her star friends and whispered her thanks. As she lay back against the soft earth, she felt warm and cozy, like being wrapped in a favorite blanket.\n\nThe night air was cool and comforting, and the stars seemed to sing a lullaby just for her. With the sound of their gentle song in her heart, Elara drifted into a peaceful sleep, dreaming of adventures still to come. The world below was quiet, and all was well.",
+  "audio_url": "http://localhost:8050/audio/a6f942c6f63c42489c4177dd091058e9.mp3",
+  "word_timestamps": [
+    {
+      "word": "in",
+      "start": 0.0,
+      "end": 0.36
+    },
+    {
+      "word": "a",
+      "start": 0.4,
+      "end": 0.74
+    },
+    {
+      "word": "quiet",
+      "start": 0.78,
+      "end": 1.2
+    },
+    {
+      "word": "village",
+      "start": 1.24,
+      "end": 1.7
+    },
+    {
+      "word": "nestled",
+      "start": 1.74,
+      "end": 2.19
+    },
+    {
+      "word": "between",
+      "start": 2.23,
+      "end": 2.69
+    },
+    {
+      "word": "rolling",
+      "start": 2.73,
+      "end": 3.19
+    },
+    {
+      "word": "green",
+      "start": 3.22,
+      "end": 3.64
+    },
+    {
+      "word": "hills",
+      "start": 3.68,
+      "end": 4.1
+    },
+    {
+      "word": "and",
+      "start": 4.14,
+      "end": 4.52
+    },
+    {
+      "word": "shimmering",
+      "start": 4.56,
+      "end": 5.06
+    },
+    {
+      "word": "blue",
+      "start": 5.09,
+      "end": 5.49
+    },
+    {
+      "word": "lakes",
+      "start": 5.53,
+      "end": 5.95
+    },
+    {
+      "word": "there",
+      "start": 5.99,
+      "end": 6.41
+    },
+    {
+      "word": "lived",
+      "start": 6.45,
+      "end": 6.87
+    },
+    {
+      "word": "a",
+      "start": 6.91,
+      "end": 7.25
+    },
+    {
+      "word": "young",
+      "start": 7.29,
+      "end": 7.71
+    },
+    {
+      "word": "girl",
+      "start": 7.75,
+      "end": 8.15
+    },
+    {
+      "word": "named",
+      "start": 8.18,
+      "end": 8.6
+    },
+    {
+      "word": "elara",
+      "start": 8.64,
+      "end": 9.06
+    },
+    {
+      "word": "elara",
+      "start": 9.1,
+      "end": 9.52
+    },
+    {
+      "word": "had",
+      "start": 9.56,
+      "end": 9.94
+    },
+    {
+      "word": "a",
+      "start": 9.98,
+      "end": 10.32
+    },
+    {
+      "word": "secret",
+      "start": 10.36,
+      "end": 10.8
+    },
+    {
+      "word": "she",
+      "start": 10.84,
+      "end": 11.22
+    },
+    {
+      "word": "could",
+      "start": 11.26,
+      "end": 11.67
+    },
+    {
+      "word": "speak",
+      "start": 11.71,
+      "end": 12.13
+    },
+    {
+      "word": "to",
+      "start": 12.17,
+      "end": 12.53
+    },
+    {
+      "word": "the",
+      "start": 12.57,
+      "end": 12.95
+    },
+    {
+      "word": "stars",
+      "start": 12.99,
+      "end": 13.41
+    },
+    {
+      "word": "every",
+      "start": 13.45,
+      "end": 13.87
+    },
+    {
+      "word": "night",
+      "start": 13.91,
+      "end": 14.33
+    },
+    {
+      "word": "she",
+      "start": 14.36,
+      "end": 14.75
+    },
+    {
+      "word": "would",
+      "start": 14.78,
+      "end": 15.2
+    },
+    {
+      "word": "climb",
+      "start": 15.24,
+      "end": 15.66
+    },
+    {
+      "word": "up",
+      "start": 15.7,
+      "end": 16.06
+    },
+    {
+      "word": "to",
+      "start": 16.1,
+      "end": 16.46
+    },
+    {
+      "word": "her",
+      "start": 16.5,
+      "end": 16.88
+    },
+    {
+      "word": "favorite",
+      "start": 16.92,
+      "end": 17.4
+    },
+    {
+      "word": "spot",
+      "start": 17.44,
+      "end": 17.84
+    },
+    {
+      "word": "on",
+      "start": 17.87,
+      "end": 18.24
+    },
+    {
+      "word": "a",
+      "start": 18.28,
+      "end": 18.62
+    },
+    {
+      "word": "grassy",
+      "start": 18.66,
+      "end": 19.1
+    },
+    {
+      "word": "hill",
+      "start": 19.13,
+      "end": 19.53
+    },
+    {
+      "word": "with",
+      "start": 19.57,
+      "end": 19.97
+    },
+    {
+      "word": "a",
+      "start": 20.01,
+      "end": 20.35
+    },
+    {
+      "word": "clear",
+      "start": 20.39,
+      "end": 20.81
+    },
+    {
+      "word": "view",
+      "start": 20.85,
+      "end": 21.25
+    },
+    {
+      "word": "of",
+      "start": 21.29,
+      "end": 21.65
+    },
+    {
+      "word": "the",
+      "start": 21.69,
+      "end": 22.07
+    },
+    {
+      "word": "sky",
+      "start": 22.11,
+      "end": 22.49
+    },
+    {
+      "word": "and",
+      "start": 22.53,
+      "end": 22.91
+    },
+    {
+      "word": "whisper",
+      "start": 22.95,
+      "end": 23.41
+    },
+    {
+      "word": "her",
+      "start": 23.45,
+      "end": 23.83
+    },
+    {
+      "word": "secrets",
+      "start": 23.86,
+      "end": 24.32
+    },
+    {
+      "word": "to",
+      "start": 24.36,
+      "end": 24.72
+    },
+    {
+      "word": "the",
+      "start": 24.76,
+      "end": 25.14
+    },
+    {
+      "word": "twinkling",
+      "start": 25.18,
+      "end": 25.68
+    },
+    {
+      "word": "lights",
+      "start": 25.72,
+      "end": 26.15
+    },
+    {
+      "word": "above",
+      "start": 26.19,
+      "end": 26.61
+    },
+    {
+      "word": "one",
+      "start": 26.65,
+      "end": 27.03
+    },
+    {
+      "word": "particularly",
+      "start": 27.07,
+      "end": 27.57
+    },
+    {
+      "word": "clear",
+      "start": 27.6,
+      "end": 28.02
+    },
+    {
+      "word": "night",
+      "start": 28.06,
+      "end": 28.48
+    },
+    {
+      "word": "as",
+      "start": 28.52,
+      "end": 28.88
+    },
+    {
+      "word": "the",
+      "start": 28.92,
+      "end": 29.3
+    },
+    {
+      "word": "moon",
+      "start": 29.34,
+      "end": 29.74
+    },
+    {
+      "word": "cast",
+      "start": 29.78,
+      "end": 30.18
+    },
+    {
+      "word": "its",
+      "start": 30.22,
+      "end": 30.6
+    },
+    {
+      "word": "silver",
+      "start": 30.64,
+      "end": 31.08
+    },
+    {
+      "word": "glow",
+      "start": 31.11,
+      "end": 31.51
+    },
+    {
+      "word": "over",
+      "start": 31.55,
+      "end": 31.95
+    },
+    {
+      "word": "the",
+      "start": 31.99,
+      "end": 32.37
+    },
+    {
+      "word": "village",
+      "start": 32.41,
+      "end": 32.87
+    },
+    {
+      "word": "elara",
+      "start": 32.91,
+      "end": 33.33
+    },
+    {
+      "word": "noticed",
+      "start": 33.36,
+      "end": 33.82
+    },
+    {
+      "word": "something",
+      "start": 33.86,
+      "end": 34.36
+    },
+    {
+      "word": "unusual",
+      "start": 34.4,
+      "end": 34.85
+    },
+    {
+      "word": "among",
+      "start": 34.89,
+      "end": 35.31
+    },
+    {
+      "word": "the",
+      "start": 35.35,
+      "end": 35.73
+    },
+    {
+      "word": "stars",
+      "start": 35.77,
+      "end": 36.19
+    },
+    {
+      "word": "one",
+      "start": 36.23,
+      "end": 36.61
+    },
+    {
+      "word": "twinkled",
+      "start": 36.65,
+      "end": 37.12
+    },
+    {
+      "word": "more",
+      "start": 37.16,
+      "end": 37.56
+    },
+    {
+      "word": "brightly",
+      "start": 37.6,
+      "end": 38.08
+    },
+    {
+      "word": "than",
+      "start": 38.12,
+      "end": 38.52
+    },
+    {
+      "word": "all",
+      "start": 38.55,
+      "end": 38.94
+    },
+    {
+      "word": "the",
+      "start": 38.97,
+      "end": 39.35
+    },
+    {
+      "word": "others",
+      "start": 39.39,
+      "end": 39.83
+    },
+    {
+      "word": "this",
+      "start": 39.87,
+      "end": 40.27
+    },
+    {
+      "word": "star",
+      "start": 40.31,
+      "end": 40.71
+    },
+    {
+      "word": "seemed",
+      "start": 40.75,
+      "end": 41.19
+    },
+    {
+      "word": "to",
+      "start": 41.22,
+      "end": 41.59
+    },
+    {
+      "word": "wink",
+      "start": 41.63,
+      "end": 42.03
+    },
+    {
+      "word": "at",
+      "start": 42.06,
+      "end": 42.43
+    },
+    {
+      "word": "her",
+      "start": 42.46,
+      "end": 42.85
+    },
+    {
+      "word": "as",
+      "start": 42.88,
+      "end": 43.25
+    },
+    {
+      "word": "if",
+      "start": 43.28,
+      "end": 43.65
+    },
+    {
+      "word": "sharing",
+      "start": 43.69,
+      "end": 44.14
+    },
+    {
+      "word": "a",
+      "start": 44.18,
+      "end": 44.52
+    },
+    {
+      "word": "playful",
+      "start": 44.56,
+      "end": 45.02
+    },
+    {
+      "word": "secret",
+      "start": 45.06,
+      "end": 45.5
+    },
+    {
+      "word": "curious",
+      "start": 45.54,
+      "end": 45.99
+    },
+    {
+      "word": "and",
+      "start": 46.03,
+      "end": 46.41
+    },
+    {
+      "word": "eager",
+      "start": 46.45,
+      "end": 46.87
+    },
+    {
+      "word": "elara",
+      "start": 46.91,
+      "end": 47.33
+    },
+    {
+      "word": "whispered",
+      "start": 47.37,
+      "end": 47.86
+    },
+    {
+      "word": "hello",
+      "start": 47.9,
+      "end": 48.32
+    },
+    {
+      "word": "star",
+      "start": 48.36,
+      "end": 48.76
+    },
+    {
+      "word": "what",
+      "start": 48.8,
+      "end": 49.2
+    },
+    {
+      "word": "is",
+      "start": 49.24,
+      "end": 49.6
+    },
+    {
+      "word": "your",
+      "start": 49.64,
+      "end": 50.04
+    },
+    {
+      "word": "story",
+      "start": 50.08,
+      "end": 50.5
+    },
+    {
+      "word": "to",
+      "start": 50.53,
+      "end": 50.9
+    },
+    {
+      "word": "her",
+      "start": 50.93,
+      "end": 51.32
+    },
+    {
+      "word": "surprise",
+      "start": 51.35,
+      "end": 51.83
+    },
+    {
+      "word": "the",
+      "start": 51.87,
+      "end": 52.25
+    },
+    {
+      "word": "star",
+      "start": 52.29,
+      "end": 52.69
+    },
+    {
+      "word": "replied",
+      "start": 52.73,
+      "end": 53.19
+    },
+    {
+      "word": "in",
+      "start": 53.22,
+      "end": 53.59
+    },
+    {
+      "word": "a",
+      "start": 53.62,
+      "end": 53.97
+    },
+    {
+      "word": "melodious",
+      "start": 54.01,
+      "end": 54.5
+    },
+    {
+      "word": "voice",
+      "start": 54.54,
+      "end": 54.96
+    },
+    {
+      "word": "i",
+      "start": 55.0,
+      "end": 55.34
+    },
+    {
+      "word": "am",
+      "start": 55.38,
+      "end": 55.74
+    },
+    {
+      "word": "stella",
+      "start": 55.78,
+      "end": 56.22
+    },
+    {
+      "word": "the",
+      "start": 56.26,
+      "end": 56.64
+    },
+    {
+      "word": "star",
+      "start": 56.68,
+      "end": 57.08
+    },
+    {
+      "word": "of",
+      "start": 57.12,
+      "end": 57.48
+    },
+    {
+      "word": "adventures",
+      "start": 57.52,
+      "end": 58.01
+    },
+    {
+      "word": "if",
+      "start": 58.05,
+      "end": 58.41
+    },
+    {
+      "word": "you",
+      "start": 58.45,
+      "end": 58.83
+    },
+    {
+      "word": "wish",
+      "start": 58.87,
+      "end": 59.27
+    },
+    {
+      "word": "i",
+      "start": 59.31,
+      "end": 59.65
+    },
+    {
+      "word": "can",
+      "start": 59.69,
+      "end": 60.07
+    },
+    {
+      "word": "take",
+      "start": 60.11,
+      "end": 60.51
+    },
+    {
+      "word": "you",
+      "start": 60.55,
+      "end": 60.93
+    },
+    {
+      "word": "on",
+      "start": 60.97,
+      "end": 61.33
+    },
+    {
+      "word": "a",
+      "start": 61.37,
+      "end": 61.71
+    },
+    {
+      "word": "journey",
+      "start": 61.75,
+      "end": 62.21
+    },
+    {
+      "word": "beyond",
+      "start": 62.25,
+      "end": 62.69
+    },
+    {
+      "word": "your",
+      "start": 62.72,
+      "end": 63.12
+    },
+    {
+      "word": "dreams",
+      "start": 63.16,
+      "end": 63.6
+    },
+    {
+      "word": "elara",
+      "start": 63.64,
+      "end": 64.06
+    },
+    {
+      "word": "s",
+      "start": 64.1,
+      "end": 64.44
+    },
+    {
+      "word": "eyes",
+      "start": 64.48,
+      "end": 64.88
+    },
+    {
+      "word": "sparkled",
+      "start": 64.92,
+      "end": 65.39
+    },
+    {
+      "word": "with",
+      "start": 65.43,
+      "end": 65.83
+    },
+    {
+      "word": "excitement",
+      "start": 65.87,
+      "end": 66.37
+    },
+    {
+      "word": "oh",
+      "start": 66.41,
+      "end": 66.77
+    },
+    {
+      "word": "yes",
+      "start": 66.81,
+      "end": 67.19
+    },
+    {
+      "word": "please",
+      "start": 67.23,
+      "end": 67.66
+    },
+    {
+      "word": "what",
+      "start": 67.7,
+      "end": 68.1
+    },
+    {
+      "word": "do",
+      "start": 68.14,
+      "end": 68.5
+    },
+    {
+      "word": "i",
+      "start": 68.54,
+      "end": 68.89
+    },
+    {
+      "word": "need",
+      "start": 68.92,
+      "end": 69.32
+    },
+    {
+      "word": "to",
+      "start": 69.36,
+      "end": 69.72
+    },
+    {
+      "word": "do",
+      "start": 69.76,
+      "end": 70.13
+    },
+    {
+      "word": "she",
+      "start": 70.16,
+      "end": 70.55
+    },
+    {
+      "word": "asked",
+      "start": 70.58,
+      "end": 71.0
+    },
+    {
+      "word": "eagerly",
+      "start": 71.04,
+      "end": 71.5
+    },
+    {
+      "word": "close",
+      "start": 71.54,
+      "end": 71.96
+    },
+    {
+      "word": "your",
+      "start": 72.0,
+      "end": 72.4
+    },
+    {
+      "word": "eyes",
+      "start": 72.43,
+      "end": 72.83
+    },
+    {
+      "word": "and",
+      "start": 72.87,
+      "end": 73.25
+    },
+    {
+      "word": "count",
+      "start": 73.29,
+      "end": 73.71
+    },
+    {
+      "word": "to",
+      "start": 73.75,
+      "end": 74.11
+    },
+    {
+      "word": "three",
+      "start": 74.15,
+      "end": 74.57
+    },
+    {
+      "word": "stella",
+      "start": 74.61,
+      "end": 75.05
+    },
+    {
+      "word": "replied",
+      "start": 75.09,
+      "end": 75.54
+    },
+    {
+      "word": "and",
+      "start": 75.58,
+      "end": 75.96
+    },
+    {
+      "word": "hold",
+      "start": 76.0,
+      "end": 76.4
+    },
+    {
+      "word": "my",
+      "start": 76.44,
+      "end": 76.8
+    },
+    {
+      "word": "light",
+      "start": 76.84,
+      "end": 77.26
+    },
+    {
+      "word": "in",
+      "start": 77.3,
+      "end": 77.66
+    },
+    {
+      "word": "your",
+      "start": 77.7,
+      "end": 78.1
+    },
+    {
+      "word": "heart",
+      "start": 78.14,
+      "end": 78.56
+    },
+    {
+      "word": "elara",
+      "start": 78.6,
+      "end": 79.02
+    },
+    {
+      "word": "squeezed",
+      "start": 79.05,
+      "end": 79.53
+    },
+    {
+      "word": "her",
+      "start": 79.57,
+      "end": 79.95
+    },
+    {
+      "word": "eyes",
+      "start": 79.99,
+      "end": 80.39
+    },
+    {
+      "word": "shut",
+      "start": 80.43,
+      "end": 80.83
+    },
+    {
+      "word": "and",
+      "start": 80.87,
+      "end": 81.25
+    },
+    {
+      "word": "counted",
+      "start": 81.29,
+      "end": 81.74
+    },
+    {
+      "word": "one",
+      "start": 81.78,
+      "end": 82.16
+    },
+    {
+      "word": "two",
+      "start": 82.2,
+      "end": 82.58
+    },
+    {
+      "word": "three",
+      "start": 82.62,
+      "end": 83.04
+    },
+    {
+      "word": "instantly",
+      "start": 83.08,
+      "end": 83.57
+    },
+    {
+      "word": "she",
+      "start": 83.61,
+      "end": 83.99
+    },
+    {
+      "word": "felt",
+      "start": 84.03,
+      "end": 84.43
+    },
+    {
+      "word": "a",
+      "start": 84.47,
+      "end": 84.81
+    },
+    {
+      "word": "gentle",
+      "start": 84.85,
+      "end": 85.29
+    },
+    {
+      "word": "breeze",
+      "start": 85.33,
+      "end": 85.77
+    },
+    {
+      "word": "lift",
+      "start": 85.81,
+      "end": 86.21
+    },
+    {
+      "word": "her",
+      "start": 86.25,
+      "end": 86.63
+    },
+    {
+      "word": "from",
+      "start": 86.66,
+      "end": 87.07
+    },
+    {
+      "word": "the",
+      "start": 87.1,
+      "end": 87.49
+    },
+    {
+      "word": "ground",
+      "start": 87.52,
+      "end": 87.96
+    },
+    {
+      "word": "when",
+      "start": 88.0,
+      "end": 88.4
+    },
+    {
+      "word": "she",
+      "start": 88.44,
+      "end": 88.82
+    },
+    {
+      "word": "opened",
+      "start": 88.86,
+      "end": 89.3
+    },
+    {
+      "word": "her",
+      "start": 89.34,
+      "end": 89.72
+    },
+    {
+      "word": "eyes",
+      "start": 89.76,
+      "end": 90.16
+    },
+    {
+      "word": "she",
+      "start": 90.19,
+      "end": 90.58
+    },
+    {
+      "word": "found",
+      "start": 90.61,
+      "end": 91.03
+    },
+    {
+      "word": "herself",
+      "start": 91.07,
+      "end": 91.53
+    },
+    {
+      "word": "standing",
+      "start": 91.57,
+      "end": 92.04
+    },
+    {
+      "word": "on",
+      "start": 92.08,
+      "end": 92.45
+    },
+    {
+      "word": "a",
+      "start": 92.48,
+      "end": 92.83
+    },
+    {
+      "word": "fluffy",
+      "start": 92.86,
+      "end": 93.3
+    },
+    {
+      "word": "cloud",
+      "start": 93.34,
+      "end": 93.76
+    },
+    {
+      "word": "the",
+      "start": 93.8,
+      "end": 94.18
+    },
+    {
+      "word": "view",
+      "start": 94.22,
+      "end": 94.62
+    },
+    {
+      "word": "was",
+      "start": 94.66,
+      "end": 95.04
+    },
+    {
+      "word": "magnificent",
+      "start": 95.08,
+      "end": 95.57
+    },
+    {
+      "word": "beneath",
+      "start": 95.61,
+      "end": 96.07
+    },
+    {
+      "word": "her",
+      "start": 96.11,
+      "end": 96.49
+    },
+    {
+      "word": "the",
+      "start": 96.53,
+      "end": 96.91
+    },
+    {
+      "word": "world",
+      "start": 96.95,
+      "end": 97.37
+    },
+    {
+      "word": "looked",
+      "start": 97.41,
+      "end": 97.84
+    },
+    {
+      "word": "like",
+      "start": 97.88,
+      "end": 98.28
+    },
+    {
+      "word": "a",
+      "start": 98.32,
+      "end": 98.66
+    },
+    {
+      "word": "quilt",
+      "start": 98.7,
+      "end": 99.12
+    },
+    {
+      "word": "of",
+      "start": 99.16,
+      "end": 99.52
+    },
+    {
+      "word": "greens",
+      "start": 99.56,
+      "end": 100.0
+    },
+    {
+      "word": "and",
+      "start": 100.04,
+      "end": 100.42
+    },
+    {
+      "word": "blues",
+      "start": 100.46,
+      "end": 100.88
+    },
+    {
+      "word": "welcome",
+      "start": 100.92,
+      "end": 101.37
+    },
+    {
+      "word": "to",
+      "start": 101.41,
+      "end": 101.77
+    },
+    {
+      "word": "the",
+      "start": 101.81,
+      "end": 102.19
+    },
+    {
+      "word": "cloud",
+      "start": 102.23,
+      "end": 102.65
+    },
+    {
+      "word": "kingdom",
+      "start": 102.69,
+      "end": 103.15
+    },
+    {
+      "word": "stella",
+      "start": 103.19,
+      "end": 103.62
+    },
+    {
+      "word": "said",
+      "start": 103.66,
+      "end": 104.06
+    },
+    {
+      "word": "her",
+      "start": 104.1,
+      "end": 104.48
+    },
+    {
+      "word": "voice",
+      "start": 104.52,
+      "end": 104.94
+    },
+    {
+      "word": "now",
+      "start": 104.98,
+      "end": 105.36
+    },
+    {
+      "word": "a",
+      "start": 105.4,
+      "end": 105.74
+    },
+    {
+      "word": "gentle",
+      "start": 105.78,
+      "end": 106.22
+    },
+    {
+      "word": "whisper",
+      "start": 106.26,
+      "end": 106.71
+    },
+    {
+      "word": "here",
+      "start": 106.75,
+      "end": 107.15
+    },
+    {
+      "word": "every",
+      "start": 107.19,
+      "end": 107.61
+    },
+    {
+      "word": "cloud",
+      "start": 107.65,
+      "end": 108.07
+    },
+    {
+      "word": "knows",
+      "start": 108.11,
+      "end": 108.53
+    },
+    {
+      "word": "a",
+      "start": 108.56,
+      "end": 108.91
+    },
+    {
+      "word": "story",
+      "start": 108.95,
+      "end": 109.37
+    },
+    {
+      "word": "as",
+      "start": 109.4,
+      "end": 109.77
+    },
+    {
+      "word": "elara",
+      "start": 109.8,
+      "end": 110.22
+    },
+    {
+      "word": "floated",
+      "start": 110.26,
+      "end": 110.72
+    },
+    {
+      "word": "from",
+      "start": 110.76,
+      "end": 111.16
+    },
+    {
+      "word": "cloud",
+      "start": 111.2,
+      "end": 111.62
+    },
+    {
+      "word": "to",
+      "start": 111.66,
+      "end": 112.02
+    },
+    {
+      "word": "cloud",
+      "start": 112.06,
+      "end": 112.48
+    },
+    {
+      "word": "she",
+      "start": 112.51,
+      "end": 112.9
+    },
+    {
+      "word": "met",
+      "start": 112.93,
+      "end": 113.31
+    },
+    {
+      "word": "a",
+      "start": 113.35,
+      "end": 113.7
+    },
+    {
+      "word": "wise",
+      "start": 113.73,
+      "end": 114.14
+    },
+    {
+      "word": "old",
+      "start": 114.17,
+      "end": 114.55
+    },
+    {
+      "word": "cloud",
+      "start": 114.59,
+      "end": 115.01
+    },
+    {
+      "word": "named",
+      "start": 115.05,
+      "end": 115.47
+    },
+    {
+      "word": "nimbus",
+      "start": 115.51,
+      "end": 115.95
+    },
+    {
+      "word": "who",
+      "start": 115.99,
+      "end": 116.37
+    },
+    {
+      "word": "shared",
+      "start": 116.41,
+      "end": 116.84
+    },
+    {
+      "word": "stories",
+      "start": 116.88,
+      "end": 117.34
+    },
+    {
+      "word": "of",
+      "start": 117.38,
+      "end": 117.74
+    },
+    {
+      "word": "lands",
+      "start": 117.78,
+      "end": 118.2
+    },
+    {
+      "word": "she",
+      "start": 118.24,
+      "end": 118.62
+    },
+    {
+      "word": "danced",
+      "start": 118.66,
+      "end": 119.1
+    },
+    {
+      "word": "with",
+      "start": 119.13,
+      "end": 119.53
+    },
+    {
+      "word": "a",
+      "start": 119.57,
+      "end": 119.92
+    },
+    {
+      "word": "group",
+      "start": 119.95,
+      "end": 120.37
+    },
+    {
+      "word": "of",
+      "start": 120.41,
+      "end": 120.77
+    },
+    {
+      "word": "fluffy",
+      "start": 120.81,
+      "end": 121.25
+    },
+    {
+      "word": "cloudlets",
+      "start": 121.29,
+      "end": 121.78
+    },
+    {
+      "word": "that",
+      "start": 121.82,
+      "end": 122.22
+    },
+    {
+      "word": "laughed",
+      "start": 122.26,
+      "end": 122.72
+    },
+    {
+      "word": "like",
+      "start": 122.76,
+      "end": 123.16
+    },
+    {
+      "word": "tinkling",
+      "start": 123.2,
+      "end": 123.67
+    },
+    {
+      "word": "bells",
+      "start": 123.71,
+      "end": 124.13
+    },
+    {
+      "word": "and",
+      "start": 124.17,
+      "end": 124.55
+    },
+    {
+      "word": "they",
+      "start": 124.59,
+      "end": 124.99
+    },
+    {
+      "word": "taught",
+      "start": 125.03,
+      "end": 125.47
+    },
+    {
+      "word": "her",
+      "start": 125.5,
+      "end": 125.89
+    },
+    {
+      "word": "how",
+      "start": 125.92,
+      "end": 126.31
+    },
+    {
+      "word": "to",
+      "start": 126.34,
+      "end": 126.71
+    },
+    {
+      "word": "weave",
+      "start": 126.74,
+      "end": 127.16
+    },
+    {
+      "word": "rainbows",
+      "start": 127.2,
+      "end": 127.68
+    },
+    {
+      "word": "from",
+      "start": 127.72,
+      "end": 128.12
+    },
+    {
+      "word": "sunbeams",
+      "start": 128.16,
+      "end": 128.63
+    },
+    {
+      "word": "and",
+      "start": 128.67,
+      "end": 129.05
+    },
+    {
+      "word": "dewdrops",
+      "start": 129.09,
+      "end": 129.57
+    },
+    {
+      "word": "time",
+      "start": 129.61,
+      "end": 130.01
+    },
+    {
+      "word": "in",
+      "start": 130.05,
+      "end": 130.41
+    },
+    {
+      "word": "the",
+      "start": 130.45,
+      "end": 130.83
+    },
+    {
+      "word": "cloud",
+      "start": 130.87,
+      "end": 131.29
+    },
+    {
+      "word": "kingdom",
+      "start": 131.32,
+      "end": 131.78
+    },
+    {
+      "word": "passed",
+      "start": 131.82,
+      "end": 132.26
+    },
+    {
+      "word": "as",
+      "start": 132.3,
+      "end": 132.66
+    },
+    {
+      "word": "if",
+      "start": 132.7,
+      "end": 133.06
+    },
+    {
+      "word": "in",
+      "start": 133.1,
+      "end": 133.46
+    },
+    {
+      "word": "a",
+      "start": 133.5,
+      "end": 133.84
+    },
+    {
+      "word": "serene",
+      "start": 133.88,
+      "end": 134.32
+    },
+    {
+      "word": "dream",
+      "start": 134.36,
+      "end": 134.78
+    },
+    {
+      "word": "elara",
+      "start": 134.81,
+      "end": 135.23
+    },
+    {
+      "word": "felt",
+      "start": 135.27,
+      "end": 135.67
+    },
+    {
+      "word": "light",
+      "start": 135.71,
+      "end": 136.13
+    },
+    {
+      "word": "and",
+      "start": 136.17,
+      "end": 136.55
+    },
+    {
+      "word": "carefree",
+      "start": 136.59,
+      "end": 137.07
+    },
+    {
+      "word": "as",
+      "start": 137.1,
+      "end": 137.47
+    },
+    {
+      "word": "if",
+      "start": 137.5,
+      "end": 137.87
+    },
+    {
+      "word": "every",
+      "start": 137.9,
+      "end": 138.32
+    },
+    {
+      "word": "worry",
+      "start": 138.36,
+      "end": 138.78
+    },
+    {
+      "word": "had",
+      "start": 138.82,
+      "end": 139.2
+    },
+    {
+      "word": "melted",
+      "start": 139.24,
+      "end": 139.68
+    },
+    {
+      "word": "away",
+      "start": 139.72,
+      "end": 140.12
+    },
+    {
+      "word": "into",
+      "start": 140.16,
+      "end": 140.56
+    },
+    {
+      "word": "the",
+      "start": 140.59,
+      "end": 140.98
+    },
+    {
+      "word": "sky",
+      "start": 141.01,
+      "end": 141.4
+    },
+    {
+      "word": "but",
+      "start": 141.43,
+      "end": 141.82
+    },
+    {
+      "word": "as",
+      "start": 141.85,
+      "end": 142.22
+    },
+    {
+      "word": "the",
+      "start": 142.25,
+      "end": 142.64
+    },
+    {
+      "word": "stars",
+      "start": 142.67,
+      "end": 143.09
+    },
+    {
+      "word": "began",
+      "start": 143.13,
+      "end": 143.55
+    },
+    {
+      "word": "to",
+      "start": 143.59,
+      "end": 143.95
+    },
+    {
+      "word": "glow",
+      "start": 143.99,
+      "end": 144.39
+    },
+    {
+      "word": "brighter",
+      "start": 144.43,
+      "end": 144.91
+    },
+    {
+      "word": "stella",
+      "start": 144.94,
+      "end": 145.38
+    },
+    {
+      "word": "spoke",
+      "start": 145.42,
+      "end": 145.84
+    },
+    {
+      "word": "again",
+      "start": 145.88,
+      "end": 146.3
+    },
+    {
+      "word": "it",
+      "start": 146.34,
+      "end": 146.7
+    },
+    {
+      "word": "is",
+      "start": 146.74,
+      "end": 147.1
+    },
+    {
+      "word": "time",
+      "start": 147.14,
+      "end": 147.54
+    },
+    {
+      "word": "to",
+      "start": 147.58,
+      "end": 147.94
+    },
+    {
+      "word": "return",
+      "start": 147.98,
+      "end": 148.42
+    },
+    {
+      "word": "home",
+      "start": 148.45,
+      "end": 148.85
+    },
+    {
+      "word": "dear",
+      "start": 148.89,
+      "end": 149.29
+    },
+    {
+      "word": "elara",
+      "start": 149.33,
+      "end": 149.75
+    },
+    {
+      "word": "remember",
+      "start": 149.79,
+      "end": 150.27
+    },
+    {
+      "word": "the",
+      "start": 150.3,
+      "end": 150.69
+    },
+    {
+      "word": "stars",
+      "start": 150.72,
+      "end": 151.14
+    },
+    {
+      "word": "are",
+      "start": 151.18,
+      "end": 151.56
+    },
+    {
+      "word": "always",
+      "start": 151.6,
+      "end": 152.04
+    },
+    {
+      "word": "here",
+      "start": 152.08,
+      "end": 152.48
+    },
+    {
+      "word": "watching",
+      "start": 152.52,
+      "end": 152.99
+    },
+    {
+      "word": "over",
+      "start": 153.03,
+      "end": 153.43
+    },
+    {
+      "word": "you",
+      "start": 153.47,
+      "end": 153.85
+    },
+    {
+      "word": "gently",
+      "start": 153.89,
+      "end": 154.33
+    },
+    {
+      "word": "the",
+      "start": 154.37,
+      "end": 154.75
+    },
+    {
+      "word": "breeze",
+      "start": 154.79,
+      "end": 155.23
+    },
+    {
+      "word": "carried",
+      "start": 155.26,
+      "end": 155.72
+    },
+    {
+      "word": "elara",
+      "start": 155.76,
+      "end": 156.18
+    },
+    {
+      "word": "back",
+      "start": 156.22,
+      "end": 156.62
+    },
+    {
+      "word": "to",
+      "start": 156.66,
+      "end": 157.02
+    },
+    {
+      "word": "her",
+      "start": 157.06,
+      "end": 157.44
+    },
+    {
+      "word": "grassy",
+      "start": 157.48,
+      "end": 157.92
+    },
+    {
+      "word": "hill",
+      "start": 157.95,
+      "end": 158.35
+    },
+    {
+      "word": "she",
+      "start": 158.39,
+      "end": 158.77
+    },
+    {
+      "word": "waved",
+      "start": 158.81,
+      "end": 159.23
+    },
+    {
+      "word": "goodbye",
+      "start": 159.27,
+      "end": 159.73
+    },
+    {
+      "word": "to",
+      "start": 159.77,
+      "end": 160.13
+    },
+    {
+      "word": "her",
+      "start": 160.17,
+      "end": 160.55
+    },
+    {
+      "word": "star",
+      "start": 160.59,
+      "end": 160.99
+    },
+    {
+      "word": "friends",
+      "start": 161.03,
+      "end": 161.48
+    },
+    {
+      "word": "and",
+      "start": 161.52,
+      "end": 161.9
+    },
+    {
+      "word": "whispered",
+      "start": 161.94,
+      "end": 162.44
+    },
+    {
+      "word": "her",
+      "start": 162.48,
+      "end": 162.86
+    },
+    {
+      "word": "thanks",
+      "start": 162.89,
+      "end": 163.33
+    },
+    {
+      "word": "as",
+      "start": 163.37,
+      "end": 163.73
+    },
+    {
+      "word": "she",
+      "start": 163.77,
+      "end": 164.15
+    },
+    {
+      "word": "lay",
+      "start": 164.19,
+      "end": 164.57
+    },
+    {
+      "word": "back",
+      "start": 164.61,
+      "end": 165.01
+    },
+    {
+      "word": "against",
+      "start": 165.05,
+      "end": 165.51
+    },
+    {
+      "word": "the",
+      "start": 165.55,
+      "end": 165.93
+    },
+    {
+      "word": "soft",
+      "start": 165.97,
+      "end": 166.35
+    },
+    {
+      "word": "earth",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "she",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "felt",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "warm",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "and",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "cozy",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "like",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "being",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "wrapped",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "in",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "a",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "favorite",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "blanket",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "the",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "night",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "air",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "was",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "cool",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "and",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "comforting",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "and",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "the",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "stars",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "seemed",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "to",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "sing",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "a",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "lullaby",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "just",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "for",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "her",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "with",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "the",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "sound",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "of",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "their",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "gentle",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "song",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "in",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "her",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "heart",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "elara",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "drifted",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "into",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "a",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "peaceful",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "sleep",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "dreaming",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "of",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "adventures",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "still",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "to",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "come",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "the",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "world",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "below",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "was",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "quiet",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "and",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "all",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "was",
+      "start": 166.35,
+      "end": 166.35
+    },
+    {
+      "word": "well",
+      "start": 166.35,
+      "end": 166.35
+    }
+  ],
+  "voice_used": "FSouabK2jWZjvnTAcoMd",
+  "story_id": "497d1cbe2fd44a31ab91bc2a1b01f8e9",
+  "updated_at": "2026-05-21T15:34:34.985973+00:00"
+}

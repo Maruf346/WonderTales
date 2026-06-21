@@ -1,0 +1,19 @@
+{
+  "child_profile": {
+    "name": "dola",
+    "age": 10,
+    "interests": [
+      "advanture"
+    ]
+  },
+  "language": "en",
+  "narrator_voice": "primary_female",
+  "theme": "adventure",
+  "custom_theme": null,
+  "cloned_voice_id": "aR67g54usBdGsjI2mONr",
+  "story_text": "In a small, bustling town, nestled near the whispering woods, lived a curious boy named Milo. Milo loved adventures, especially those filled with mystery and magic. Each evening, after homework and chores, Milo would sit by his window, dreaming of fantastical journeys. \n\nOne starlit night, as the moonlight danced on the leaves, Milo heard a soft, sweet melody wafting through the air. It seemed to come from the heart of the whispering woods. Unable to resist its call, Milo tiptoed outside, careful not to wake his sleeping family. \n\nThe forest was alive with the gentle rustle of leaves and the distant hoot of an owl. Milo followed the melodic trail, his feet guided by the tune that sparkled like silver bells. Soon, he stumbled upon a hidden path, one he had never seen before. Glowing fireflies hovered above, lighting his way as though they knew he was a friend.\n\nAs Milo ventured deeper, the trees bent their branches to form an archway, leading him into a secret clearing. In its center stood an enormous, ancient tree, with roots as thick as a dragon's tail. Hanging from the branches were glowing globes, each a different hue — emerald, sapphire, and gold. They swayed gently, singing the song that had called him here.\n\nA tiny figure emerged from behind the tree, a small creature with shimmering wings. \"Welcome, Milo,\" it greeted with a smile. The creature introduced itself as Lumina, the guardian of dreams and keeper of the forest's treasures. \n\nLumina explained that the glowing globes were the dreams of the forest creatures, kept safe and bright. Milo, with eyes wide in wonder, asked if he could help protect the dreams. \"Yes,\" Lumina replied, \"but first, you must receive a gift.\"\n\nWith a wave of Lumina's hand, a warm, golden globe floated down to Milo. As he touched it, he felt a gentle warmth spread through him. The globe shimmered and whispered secrets of courage and kindness. Milo knew he was now a guardian too, entrusted to carry the dream light wherever he went.\n\nTogether, they watched as the globes twinkled like stars, each a precious dream. The forest hummed a soothing lullaby, wrapping around Milo like a soft blanket. Feeling peaceful and content, he thanked Lumina, promising to return whenever the song called him.\n\nAs he made his way home, the forest whispered goodnight. The soothing melody echoed in his heart, guiding him back to his cozy bed. Snuggled beneath his covers, Milo drifted into a gentle sleep, dreaming of magical forests and twinkling stars. The night cradled him softly, assuring him that adventures awaited in dreams and beyond.",
+  "audio_url": "http://localhost:8050/audio/becfd50259ce49df96052c66a87cec15.mp3",
+  "voice_used": "aR67g54usBdGsjI2mONr",
+  "story_id": "b5b2926c6ffa43059facfac60a9ba85a",
+  "updated_at": "2026-05-07T21:06:58.480993+00:00"
+}

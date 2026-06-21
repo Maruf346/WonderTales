@@ -1,0 +1,23 @@
+{
+  "child_profile": {
+    "name": "Sreya",
+    "age": 6,
+    "interests": [
+      "Games",
+      "Nature",
+      "Horror",
+      "Mistry",
+      "Thriller"
+    ]
+  },
+  "language": "en",
+  "narrator_voice": "primary_female",
+  "theme": "bedtime",
+  "custom_theme": "string",
+  "cloned_voice_id": null,
+  "story_text": "Once upon a time, in a land not too far away, there was a magical forest that sparkled under the silver moonlight. In this forest lived animals of all kinds who loved to play games, solve mysteries, and explore new wonders every day. \n\nOne little fox, named Flick, was especially curious. Flick had bright, twinkling eyes and a soft, fluffy tail. Every night, when the stars began to twinkle in the sky, Flick would gather his friends for the most enchanting bedtime adventure.\n\nTonight, the forest friends decided to play a gentle game of hide and seek under the moon's soft glow. Flick led the way with his cheerful leap. As he dashed through the trees, the leaves whispered secrets of the forest, and the air was filled with the scent of fresh pine and sweet berries.\n\nFlick's best friend, Luna the owl, flew silently above. Her wings spread wide, she was the wisest one with the keenest eyes. Luna perched on a branch to count, \"One, two, three,\" her voice as soothing as a lullaby. As she counted, the friends giggled and scrambled to find the best hiding spots.\n\nBenny the bunny hid in the tall, soft grass, his nose twitching with excitement. Tilly the turtle tucked herself under the gentle arch of a fallen leaf, feeling cozy and safe. And Flick found the perfect nook behind an old, friendly tree, its bark warm against his back.\n\nAs they hid, a gentle breeze ruffled the leaves, and the forest whispered stories of long ago. The moon watched over them, casting a glow that made everything look like a silver dream.\n\nLuna opened her big eyes and began her search. She found Benny first, his soft ears peeking through the grass. \"Found you, Benny!\" she hooted softly. Next, she spotted Tilly's shell, glinting under the moonlight, and Tilly gave a happy little wave. \n\nFinally, Luna flew down to Flick's hiding spot. \"I see you, Flick!\" she called with a gentle laugh. Flick hopped out, his tail wagging with joy.\n\nAfter their game, the friends gathered in a circle under the moon. The stars twinkled like tiny lamps in the sky, guiding them into a cozy, sleepy feeling. Flick stretched and yawned, his eyes drooping with contentment.\n\nTogether, they listened to the songs of crickets and the rustling leaves, their hearts full of happiness and friendship. As each friend closed their eyes, they drifted into dreams as soft and sweet as the moonlit night. And in the quiet, safe forest, all was calm and peaceful, wrapping them in a blanket of stars and sweet dreams.",
+  "audio_url": "http://10.10.20.77:8050/audio/17fb74372a604756a86ba6978780ecde.mp3",
+  "voice_used": "primary_female",
+  "story_id": "83ff559a13ad4b59bd0402b3edc5253f",
+  "updated_at": "2026-04-30T06:18:25.106359+00:00"
+}

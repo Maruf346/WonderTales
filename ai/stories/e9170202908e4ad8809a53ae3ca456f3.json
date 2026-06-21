@@ -1,0 +1,19 @@
+{
+  "child_profile": {
+    "name": "dola",
+    "age": 10,
+    "interests": [
+      "advanture"
+    ]
+  },
+  "language": "en",
+  "narrator_voice": "primary_female",
+  "theme": "adventure",
+  "custom_theme": null,
+  "cloned_voice_id": null,
+  "story_text": "In the gentle glow of the setting sun, a curious girl named Dola stood at the edge of Whispering Woods. She had an adventurous spirit and a twinkle in her eye that sparkled with dreams of exploring faraway places. Dola loved the woods, where every corner seemed to hide a secret waiting to be discovered.\n\nThis evening felt special. The breeze carried the scent of pine needles and wildflowers, whispering secrets only nature knew. As Dola ventured deeper into the forest, she met her dear friend, a wise, old tortoise named Oliver. Oliver had been Dola's companion on many adventures, always guiding her with his calm and steady presence.\n\n\"Where shall we explore today?\" Dola asked, her voice full of excitement.\n\nOliver nudged a small, overgrown path that Dola had never noticed before. \"Follow this trail,\" he said softly. \"It will lead us to the Stream of Stars.\"\n\nDola's eyes widened with wonder. She had heard tales of this mysterious stream, said to mirror the night sky with endless twinkling stars. Together, they walked, the forest around them alive with the gentle rustling of leaves and the soft calls of hidden creatures.\n\nFinally, they arrived. The Stream of Stars was more beautiful than Dola had ever imagined. The water shimmered as if a thousand tiny diamonds danced upon its surface, reflecting the first stars peeking out from the twilight sky.\n\nAs Dola knelt by the stream, she noticed something curious. A small, glowing stone lay nestled among the pebbles. It pulsed with a soft, golden light and seemed to hum a gentle melody. Dola picked it up, the warmth from the stone spreading through her fingers and up her arms, filling her with a sense of peace and happiness.\n\n\"Keep it close,\" Oliver advised. \"This is the Heart of the Stream. It holds the magic of these woods.\"\n\nDola nodded, tucking the stone safely in her pocket. A feeling of contentment washed over her as she realized her adventure had gifted her not just a magical token but a memory she would cherish forever. The stars above twinkled, their light mingling with the glow of the stone in her pocket.\n\nAs Dola and Oliver began their journey home, the forest around them seemed to lull them into a gentle rhythm. The night animals sang their lullabies, and the path was illuminated by the soft glow of fireflies.\n\nWith each step, Dola felt more at ease, her adventurous heart now soothed by the magic of the evening. She knew the Stream of Stars would always be there, a secret world she could visit whenever she needed a reminder of wonder.\n\nFinally, at the forest's edge, she paused to thank Oliver. With a gentle smile, he promised, \"Tomorrow is full of more adventures, Dola.\"\n\nWith that comforting thought, Dola made her way home, her heart light, her mind filled with dreams, ready to drift into a peaceful night's sleep. The gentle rustle of the leaves whispered a soothing lullaby, wrapping her in the warmth of the woods' embrace as she closed her eyes.",
+  "audio_url": "http://localhost:8050/audio/5f439b517c714bfe9d99226554f2a054.mp3",
+  "voice_used": "primary_female",
+  "story_id": "e9170202908e4ad8809a53ae3ca456f3",
+  "updated_at": "2026-05-07T20:46:42.225525+00:00"
+}

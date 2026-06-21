@@ -1,0 +1,21 @@
+{
+  "child_profile": {
+    "name": "Suchi",
+    "age": 6,
+    "interests": [
+      "Mystry",
+      "Adventure",
+      "Calm_Nature"
+    ]
+  },
+  "language": "en",
+  "narrator_voice": "secondary_male",
+  "theme": "bedtime",
+  "custom_theme": "string",
+  "cloned_voice_id": "KapUOqwQUVBpPWLBGgbb",
+  "story_text": "Once upon a time, in the peaceful village of Willowwood, there was a little girl named Suchi. She had twinkling eyes and a heart full of adventure. Suchi loved exploring the mysteries of nature right before bedtime. Each evening, the magical woods behind her house whispered her name, calling her to explore its secrets.\n\nOne fine evening, as the sun painted the sky with soft pinks and oranges, Suchi set off on her little adventure with her trusty companion, a fluffy rabbit named Twinkle. The woods were calm and quiet, but they felt alive with the songs of crickets and the gentle rustle of leaves.\n\nAs Suchi wandered deeper into the forest, she discovered a narrow, winding path she'd never seen before. Curious and excited, she decided to follow it. Twinkle hopped along, his little nose twitching with curiosity.\n\nSoon, they came upon a small, shimmering pond surrounded by tall, graceful trees. The water was as still as glass, reflecting the golden glow of the evening sky. But what caught Suchi's eyes were tiny floating lanterns drifting gently across the pond's surface. They twinkled like stars fallen from the sky, casting a warm, comforting light all around.\n\n\"Twinkle, look!\" Suchi whispered, her voice full of awe. \"Who could have put these here?\"\n\nAs if in answer, a soft breeze swept through the trees, carrying with it the faintest sound of laughter. And then, from behind a tree, appeared the Woodland Wanderers—a group of friendly forest fairies known for their playful tricks and kind hearts. The fairies flitted around Suchi and Twinkle, their tiny wings shimmering like rainbows.\n\n\"We've been waiting for you, Suchi,\" said the littlest fairy, her voice like a chiming bell. \"Every evening, we light the lanterns to guide sweet dreams to little ones like you. Would you like to help us tonight?\"\n\nSuchi's heart danced with joy. \"Oh, yes, please!\" she replied eagerly.\n\nWith Twinkle by her side, Suchi spent the next little while placing glowing lanterns around the pond, each one brighter than the last, lighting up the night with a gentle, magical glow.\n\nAs the sky deepened to a cozy blue, Suchi felt a warm, sleepy feeling wrap around her like a soft blanket. She thanked the fairies for the lovely adventure and started her journey back home with Twinkle.\n\nThe way back seemed shorter and even more enchanting as the lanterns guided them, just as they guided dreams. Once home, Suchi cuddled up in bed with Twinkle snuggled beside her. She closed her eyes, feeling the night’s magic still twinkling in her heart.\n\nAnd as Suchi drifted off to sleep, the fairies' gentle laughter lingered in her dreams, wrapping her in a serene, dreamy adventure that promised another magical day ahead. The moon smiled down, and all was peaceful and calm.",
+  "audio_url": "http://127.0.0.1:8050/audio/fcefe88f1f2c4043b43c7db1b9a85f5b.mp3",
+  "voice_used": "KapUOqwQUVBpPWLBGgbb",
+  "story_id": "d75ea7e9c1964a58a7e87a70ceb9eb82",
+  "updated_at": "2026-05-02T06:25:56.209464+00:00"
+}

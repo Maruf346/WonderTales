@@ -1,0 +1,21 @@
+{
+  "child_profile": {
+    "name": "Suchi",
+    "age": 6,
+    "interests": [
+      "Mystry",
+      "Adventure",
+      "Calm_Nature"
+    ]
+  },
+  "language": "en",
+  "narrator_voice": "secondary_male",
+  "theme": "bedtime",
+  "custom_theme": "string",
+  "cloned_voice_id": "qcEbg94ZePKNYCpnsrtI",
+  "story_text": "In the heart of the Whispering Woods, where the trees swayed gently and the stars twinkled like tiny fireflies, there lived a curious little squirrel named Tippy. Tippy had fluffy, soft fur and bright eyes that sparkled with wonder. Every night, before curling up in her cozy tree nest, Tippy loved to explore a new mystery or adventure. \n\nOne evening, as the sun dipped low and painted the sky with gentle shades of pink and gold, Tippy decided to embark on a special adventure. She had heard a soft, mysterious sound coming from the far side of the forest. It was a gentle hum, almost like a lullaby whispered by the wind. Filled with curiosity, Tippy nibbled on a crunchy acorn to fuel her journey and scampered off on her tiny paws.\n\nAs she ventured deeper into the woods, the air was filled with the scent of fresh pine and wildflowers. Friendly fireflies danced around Tippy, lighting her path with their tiny lanterns. “Where could the sound be coming from?” wondered Tippy, her tail twitching with excitement.\n\nHopping over rocks and ducking under leafy branches, Tippy finally reached the edge of a shimmering stream. The water glistened under the soft moonlight, and it was there that Tippy discovered the secret of the mysterious hum. It was a beautiful chorus of crickets and frogs, all singing their soothing nighttime melody. Their song flowed over the stream, wrapping the forest in calming notes.\n\nTippy sat by the bank, mesmerized by the tranquil concert. She closed her eyes, letting the gentle music wash over her. It was as if the entire forest was singing a lullaby just for her. As she listened, Tippy felt a warm, sleepy sensation slowly spreading through her tiny body.\n\nThe stars above twinkled like sleepy eyes, watching over the peaceful scene. Tippy yawned, stretching her small paws and fluffing up her tail. She knew it was time to go back to her nest. With a content heart and sleepy eyes, Tippy whispered a thank you to the crickets and frogs for their beautiful song.\n\nMaking her way back, Tippy felt the comfort of the night wrapping around her like a cozy blanket. She nestled into her tree, the gentle hum of the forest still echoing softly in her ears. As Tippy drifted into dreams, the Whispering Woods sang their lullabies, cradling her into a peaceful, dreamy sleep. \n\nAnd soon, the whole forest, from the tallest trees to the tiniest creatures, floated into a night of sweet, serene dreams.",
+  "audio_url": "http://127.0.0.1:8050/audio/bf5cf1d64e13411c9b95ba262eb107a8.mp3",
+  "voice_used": "qcEbg94ZePKNYCpnsrtI",
+  "story_id": "d0e9af91fa1d402ba5d94887cb24cfdf",
+  "updated_at": "2026-05-02T06:22:09.173200+00:00"
+}

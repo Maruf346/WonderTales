@@ -1,0 +1,21 @@
+{
+  "child_profile": {
+    "name": "Skipbbai",
+    "age": 14,
+    "interests": [
+      "Mystry",
+      "Thriller",
+      "Horror"
+    ]
+  },
+  "language": "en",
+  "narrator_voice": "primary_male",
+  "theme": "bedtime",
+  "custom_theme": "string",
+  "cloned_voice_id": "KapUOqwQUVBpPWLBGgbb",
+  "story_text": "In the heart of the sleepy town of Willow Glen, nestled between whispering pines and a gentle stream, stood an old library. Unlike any other, this library only opened its grand wooden doors at twilight, inviting curious minds into its world of endless pages and boundless imagination.\n\nEvelyn, a spirited and adventurous teenager, had always heard stories about the library's most peculiar room: the Hall of Untold Tales. One starry evening, carried by whispers of mystery in the cool breeze, she decided to discover its secrets for herself.\n\nStepping onto the polished wooden floors, Evelyn was greeted by the soft glow of lamps casting gentle shadows on towering bookshelves. The scent of old parchment and ink filled the air like a cozy embrace. The librarian, a kind-eyed old man with a mysterious smile, nodded at her as if he knew her purpose.\n\nShe wandered through aisles of stories until she came upon a small, hidden door at the back of the library. Intrigued, she gently turned the brass handle, and the door creaked open to reveal the Hall of Untold Tales. It was a room unlike any other, filled with shelves of books that seemed to shimmer with a life of their own.\n\nEvelyn selected a book that caught her eye, its spine adorned in midnight blue. As she opened it, a soft breeze stirred, and the pages began to glow. The words danced in the air, weaving a tale of lands unseen and adventures untold. To her delight, the story began to unfold in front of her eyes, painting vivid pictures in her mind.\n\nShe saw castles floating on clouds and forests that glowed with fireflies brighter than the stars. She imagined the laughter of enchanted creatures, the rustle of leaves in a magical breeze, and a sky painted with a thousand colors.\n\nAs the tale spun on, Evelyn felt a warm drowsiness settle over her. The room's soft lighting and the gentle rustle of pages felt like a lullaby. She knew she was cradled by the magic of stories, safe within their comforting embrace. It was as if the library itself was whispering to her, lulling her into slumber.\n\nWith a serene smile, Evelyn closed the book and returned it to its place. She left the Hall of Untold Tales, stepping quietly back into the night. The stars blinked down at her like watchful guardians, and the moon wrapped her in its silvery glow as she made her way home.\n\nEvelyn knew that whenever she needed to escape into another world of wonder, the library would be there, waiting with a new tale to tell. Filled with peaceful contentment, she curled up under her cozy blanket, the sense of adventure still twinkling softly in her dreams. Sleep came easily, like a gentle wave washing over her, carrying her into the soothing world of slumber.",
+  "audio_url": "http://127.0.0.1:8050/audio/84d880da55f347bb9356ea2a373b3e16.mp3",
+  "voice_used": "KapUOqwQUVBpPWLBGgbb",
+  "story_id": "65b29ba65efb45ec8d061ebf9fec586b",
+  "updated_at": "2026-05-02T06:35:40.780952+00:00"
+}

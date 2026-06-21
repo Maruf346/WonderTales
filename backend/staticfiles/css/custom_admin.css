@@ -1,0 +1,33 @@
+/*
+   WonderTales Admin Custom CSS
+*/
+
+/*
+   1. x-cloak: Hide elements until Alpine.js initialises them.
+   Without this, Alpine-controlled elements flash before JS loads.
+*/
+[x-cloak] {
+    display: none !important;
+}
+
+/*
+   2. Alpine.js Load Fallbacks (Graceful Degradation)
+   If Alpine.js fails to initialize (e.g. blocked by production CSP headers),
+   components that rely on Alpine's 'x-show' directive will remain visible
+   by default because they don't have inline styles yet.
+   
+   These rules hide the overlays/modals by default if Alpine has NOT run
+   (i.e. they do not have the 'display' property inside an inline style attribute).
+   Once Alpine runs, it will inject 'style="display: ..."', disabling these fallbacks
+   and restoring native interactive behavior.
+*/
+
+/* Hide the user filter sidebar modal if Alpine hasn't initialized it */
+#changelist-filter[x-show="filterOpen"]:not([style*="display"]) {
+    display: none !important;
+}
+
+/* Hide the global command palette search modal if Alpine hasn't initialized it */
+div[x-data="searchCommand()"]:not([style*="display"]) {
+    display: none !important;
+}

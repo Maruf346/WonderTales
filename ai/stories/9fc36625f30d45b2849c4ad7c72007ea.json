@@ -1,0 +1,19 @@
+{
+  "child_profile": {
+    "name": "dola",
+    "age": 10,
+    "interests": [
+      "advanture"
+    ]
+  },
+  "language": "en",
+  "narrator_voice": "primary_female",
+  "theme": "adventure",
+  "custom_theme": null,
+  "cloned_voice_id": null,
+  "story_text": "In the village of Willowbrook, where the morning mist hugged the trees and the brook sang a gentle song, lived a curious 10-year-old girl named Dola. She had bright eyes that glistened with the desire for adventure. One sunny afternoon, while playing in her grandmother's garden, she stumbled upon an old, mysterious map hidden inside a little wooden box.\n\nThe map, drawn in faded ink, showed secret paths, twinkling stars, and a big X marked in the center of the Enchanted Forest nearby. Dola’s heart skipped a beat. This was the adventure she'd been dreaming of!\n\nWith a little backpack filled with snacks and her trusty flashlight, Dola set off. The forest was a place of wonder, where sunlight danced through leaves and the air was full of earthy scents. Birds chirped above, sharing secrets only they knew. As she followed the map, she found herself at the foot of a large oak tree, its branches stretching like welcoming arms.\n\nDola noticed something peculiar. At the base of the tree, overgrown with ivy, was a tiny door. She gently pushed it open and discovered a spiral staircase leading down into the earth. Her heart fluttered with excitement. Down, down she went, until she reached a cozy underground room filled with sparkling crystals that glowed softly, giving the space an amber warmth.\n\nIn the center of the room sat a friendly-looking gnome with a silver beard. \"Ah, Dola,\" he greeted with a smile, \"I’ve been expecting you.\" He introduced himself as Gimble, the guardian of dreams. Gimble explained that the map had chosen Dola, for her adventurous spirit was pure and kind.\n\nGimble presented her with a tiny, glistening stone. \"This is a Dreamstone,\" he said. \"Whenever you seek adventure, hold it close, and it will guide your dreams to magical places.\"\n\nDola thanked Gimble and carefully placed the Dreamstone in her pocket. As she climbed back up the spiral staircase, the forest seemed even more alive, whispering tales of old.\n\nWhen Dola reached home, the sky was painted in hues of orange and pink. She whispered her adventure to the stars as she slipped into bed, the Dreamstone nestled under her pillow.\n\nThat night, as the moon cast a gentle glow upon Willowbrook, Dola dreamed of soaring over mountains and diving into deep blue seas, accompanied by Gimble and his sparkling laughter. The world was vast, and her dreams were endless.\n\nWith the comfort of the Dreamstone, Dola knew that every night would bring a new adventure, wrapping her in a cocoon of dream-filled wonder. As she floated into sleep, her heart was warm and her mind was at peace, ready to explore the marvels of tomorrow.",
+  "audio_url": "http://localhost:8050/audio/6b47392c36664fc99bd55d6388376ac8.mp3",
+  "voice_used": "primary_female",
+  "story_id": "9fc36625f30d45b2849c4ad7c72007ea",
+  "updated_at": "2026-05-07T20:52:20.601977+00:00"
+}

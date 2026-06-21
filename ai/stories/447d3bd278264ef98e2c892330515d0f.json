@@ -1,0 +1,20 @@
+{
+  "child_profile": {
+    "name": "Amara",
+    "age": 7,
+    "interests": [
+      "Moon",
+      "space"
+    ]
+  },
+  "language": "en",
+  "narrator_voice": "primary_female",
+  "theme": "bedtime",
+  "custom_theme": "string",
+  "cloned_voice_id": "6Pv84MWUnl5yWHba9x5z",
+  "story_text": "Once upon a time, in the quiet town of Starry Hollow, there lived a little girl named Amara. Amara loved the night sky, especially the Moon. Every evening, she would sit by her bedroom window, looking up into the great expanse, dreaming of the stories the stars might tell.\n\nOne peaceful night, as the full Moon cast its silvery glow over her room, Amara noticed something peculiar. A gentle beam of moonlight seemed to twinkle and shimmer more brightly than usual. As she gazed with wonder, the moonbeam danced over to her bed and whispered, “Hello, Amara. Would you like to come with me on a moonlit adventure?”\n\nAmara’s eyes sparkled with excitement. “Oh, yes, please!” she whispered back, feeling a gentle tug on her hand. The moonbeam wrapped around her like a soft, glowing scarf, lifting her gently from her bed. Before she knew it, she was soaring up, up, up, past the rooftops and into the soft, velvet sky.\n\nThe night was calm and the stars twinkled in greeting. As they traveled, the moonbeam introduced Amara to the constellations. She met Orion, the brave hunter, who waved with his shining belt of stars. Cassiopeia, the queen, nodded with grace from her royal throne. Each constellation told her a tale of wonder and dreams.\n\nFinally, they reached the Moon itself, which was even more magnificent up close. Its surface glimmered like silver dust, and Moonflowers bloomed, their petals catching the light in a gentle sway. Amara marveled at the sight, feeling a deep sense of peace.\n\nThe Moon, smiling down at her, said, “Thank you for visiting, dear Amara. Remember, I am always here, keeping watch over you.”\n\nWith that, the moonbeam gently wrapped around Amara once more, guiding her back down through the star-dusted sky. She floated softly back into her cozy bed, the moonbeam tucking her in as if it were a warm, glowing blanket.\n\nAmara sighed contentedly, feeling safe and loved. As she drifted off to sleep, she knew that the Moon would always be her friend, waiting each night to share its gentle light and whispers of dreams. The stars continued their soft, twinkling song, lulling her into a restful slumber, where dreams of cosmic adventures awaited.\n\nAnd so, with a heart full of wonder and peace, Amara slept, her dreams as bright and beautiful as the night sky itself.",
+  "audio_url": "http://127.0.0.1:8050/audio/1c756092dac249fbb69dea9051475a39.mp3",
+  "voice_used": "6Pv84MWUnl5yWHba9x5z",
+  "story_id": "447d3bd278264ef98e2c892330515d0f",
+  "updated_at": "2026-05-03T03:24:26.635923+00:00"
+}

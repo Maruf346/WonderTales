@@ -1,0 +1,23 @@
+{
+  "child_profile": {
+    "name": "Sreya",
+    "age": 6,
+    "interests": [
+      "Games",
+      "Nature",
+      "Horror",
+      "Mistry",
+      "Thriller"
+    ]
+  },
+  "language": "en",
+  "narrator_voice": "primary_male",
+  "theme": "bedtime",
+  "custom_theme": "string",
+  "cloned_voice_id": "qTz6MaSnYGI4Zh4PhjVQ",
+  "story_text": "In a cozy little village surrounded by whispering trees and shimmering streams, there was a magical meadow that sparkled with tiny lights like stars. It was a special place known only to a few—a place where dreams began their gentle dance.\n\nEvery evening, as the sun dipped below the horizon, the meadow awoke with the soft rustle of playful breezes. Among the glowing patches of grass lived tiny creatures called Dreamlings. The Dreamlings were as soft as dandelion fluff and as colorful as rainbows after a gentle rain. They had one important job: to weave the sweetest dreams for children all around the world.\n\nSreya, a curious and adventurous girl with bright eyes and a knack for solving mysteries, had heard tales of the Dreamling Meadow. One warm night, feeling a tingle of excitement, she tiptoed out of her house and followed the moonlit path that led to the meadow. Her heart beat softly like a drum, in tune with the night.\n\nAs she entered the meadow, Sreya saw the Dreamlings bustling about, busy creating dreams with threads of stardust. They twirled and laughed, weaving dreams of adventures in enchanted forests, whispers of giggling winds, and stories of friendly dragons who loved to play games. Sreya watched in awe, enchanted by their gentle magic.\n\nOne Dreamling, with wings that shimmered like the evening sky, noticed Sreya and fluttered over. \"Would you like to help us, Sreya?\" it asked, its voice as soothing as a lullaby. \"We have a mystery to solve! We've misplaced a piece of the moon's glow, and without it, dreams can't flow as brightly.\"\n\nEager to assist, Sreya nodded with a smile. She and the Dreamling searched high and low, beneath every leaf and inside every flower. Finally, they found the missing piece sparkling beneath a soft, mossy rock, basking in the glow of the moonlight.\n\nWith a joyful cheer, the Dreamlings rejoiced, and together they tucked the piece back into the moonlit sky. The meadow shimmered even more brightly, and the air buzzed with gratitude and happiness.\n\nAs the night deepened, Sreya felt her eyelids grow heavy. The Dreamling whispered softly, \"It's time for you to dream now, dear Sreya. We'll weave you dreams filled with wonder and joy.\"\n\nWith a heart full of happiness, Sreya lay down on the soft grass. The Dreamlings sang a gentle lullaby, and slowly, Sreya drifted into a slumber filled with the warmest, sweetest dreams, knowing that tomorrow would bring new mysteries and adventures. The meadow's soft glow embraced her, wrapping her in peace and contentment.",
+  "audio_url": "http://10.10.20.77:8050/audio/7421fa67e5af42039c1966ea1bedb5de.mp3",
+  "voice_used": "qTz6MaSnYGI4Zh4PhjVQ",
+  "story_id": "999bc9e1809a4f37a6ffea000d9e456d",
+  "updated_at": "2026-04-30T06:43:20.279122+00:00"
+}

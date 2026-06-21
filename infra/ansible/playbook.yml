@@ -1,0 +1,304 @@
+- hosts: webservers
+  become: yes
+
+  vars:
+    project_path: /home/ubuntu/wondertales
+    server_ip: 13.61.204.194
+    landingpage_domain: wondertaleshub.com
+    landingpage_www_domain: www.wondertaleshub.com
+    backend_domain: api.wondertaleshub.com
+    ai_domain: ai.wondertaleshub.com
+    certbot_email: shemanto27@gmail.com
+    backend_env_src: ../../backend/.env
+    ai_env_src: ../../ai/.env
+    docker_compose_src: ../../docker-compose.prod.yml
+    nginx_landingpage_src: ../../nginx/landingpage.conf
+    nginx_backend_src: ../../nginx/backend.conf
+    nginx_ai_src: ../../nginx/ai.conf
+
+  tasks:
+    - name: Update apt packages
+      apt:
+        update_cache: yes
+        upgrade: dist
+
+    - name: Create swap file if not exists
+      command: fallocate -l 2G /swapfile
+      args:
+        creates: /swapfile
+
+    - name: Set swap file permissions
+      file:
+        path: /swapfile
+        mode: "0600"
+
+    - name: Format swap file
+      command: mkswap /swapfile
+      ignore_errors: yes
+
+    - name: Enable swap file
+      command: swapon /swapfile
+      ignore_errors: yes
+
+    - name: Add swap to fstab
+      mount:
+        name: none
+        src: /swapfile
+        fstype: swap
+        opts: sw
+        passno: '0'
+        dump: '0'
+        state: present
+
+    - name: Install prerequisites for Docker
+      apt:
+        name:
+          - ca-certificates
+          - curl
+          - gnupg
+        state: present
+
+    - name: Add Docker GPG key
+      apt_key:
+        url: https://download.docker.com/linux/ubuntu/gpg
+        state: present
+
+    - name: Add Docker repository
+      apt_repository:
+        repo: "deb [arch=amd64] https://download.docker.com/linux/ubuntu {{ ansible_distribution_release }} stable"
+        state: present
+
+    - name: Install dependencies
+      apt:
+        name:
+          - docker-ce
+          - docker-ce-cli
+          - containerd.io
+          - docker-buildx-plugin
+          - docker-compose-plugin
+          - nginx
+          - certbot
+          - python3-certbot-nginx
+        state: present
+        update_cache: yes
+
+    - name: Add ubuntu user to docker group
+      user:
+        name: ubuntu
+        groups: docker
+        append: yes
+
+    - name: Create project folders
+      file:
+        path: "{{ item }}"
+        state: directory
+        mode: "0755"
+        owner: ubuntu
+        group: ubuntu
+      loop:
+        - "{{ project_path }}"
+        - "{{ project_path }}/backend"
+        - "{{ project_path }}/ai"
+
+    - name: Copy backend .env file
+      copy:
+        src: "{{ backend_env_src }}"
+        dest: "{{ project_path }}/backend/.env"
+        mode: "0600"
+        owner: ubuntu
+        group: ubuntu
+
+    - name: Copy AI .env file
+      copy:
+        src: "{{ ai_env_src }}"
+        dest: "{{ project_path }}/ai/.env"
+        mode: "0600"
+        owner: ubuntu
+        group: ubuntu
+
+    - name: Copy docker-compose.prod.yml
+      copy:
+        src: "{{ docker_compose_src }}"
+        dest: "{{ project_path }}/docker-compose.prod.yml"
+        mode: "0644"
+        owner: ubuntu
+        group: ubuntu
+      notify:
+        - restart docker-compose
+
+    - name: Create letsencrypt directories
+      file:
+        path: "/etc/letsencrypt/live/{{ item }}"
+        state: directory
+        mode: "0755"
+      loop:
+        - "{{ landingpage_domain }}"
+        - "{{ backend_domain }}"
+        - "{{ ai_domain }}"
+
+    - name: Check if options-ssl-nginx.conf exists
+      stat:
+        path: /etc/letsencrypt/options-ssl-nginx.conf
+      register: options_ssl
+
+    - name: Download options-ssl-nginx.conf if missing
+      get_url:
+        url: https://raw.githubusercontent.com/certbot/certbot/master/certbot-nginx/certbot_nginx/_internal/tls_configs/options-ssl-nginx.conf
+        dest: /etc/letsencrypt/options-ssl-nginx.conf
+      when: not options_ssl.stat.exists
+
+    - name: Generate dummy dhparam if missing
+      command: openssl dhparam -out /etc/letsencrypt/ssl-dhparams.pem 1024
+      args:
+        creates: /etc/letsencrypt/ssl-dhparams.pem
+
+    - name: Generate dummy self-signed certs
+      command: >
+        openssl req -x509 -nodes -days 1 -newkey rsa:2048
+        -keyout /etc/letsencrypt/live/{{ item }}/privkey.pem
+        -out /etc/letsencrypt/live/{{ item }}/fullchain.pem
+        -subj "/CN={{ item }}"
+      args:
+        creates: /etc/letsencrypt/live/{{ item }}/fullchain.pem
+      loop:
+        - "{{ landingpage_domain }}"
+        - "{{ backend_domain }}"
+        - "{{ ai_domain }}"
+
+    - name: Copy Nginx configs
+      copy:
+        src: "{{ item.src }}"
+        dest: "/etc/nginx/sites-available/{{ item.name }}"
+        mode: "0644"
+      loop:
+        - { src: "{{ nginx_landingpage_src }}", name: "landingpage" }
+        - { src: "{{ nginx_backend_src }}", name: "backend" }
+        - { src: "{{ nginx_ai_src }}", name: "ai" }
+      notify:
+        - reload nginx
+
+    - name: Enable Nginx sites
+      file:
+        src: "/etc/nginx/sites-available/{{ item }}"
+        dest: "/etc/nginx/sites-enabled/{{ item }}"
+        state: link
+      loop:
+        - "landingpage"
+        - "backend"
+        - "ai"
+      notify:
+        - reload nginx
+
+    - name: Remove default Nginx site
+      file:
+        path: /etc/nginx/sites-enabled/default
+        state: absent
+      notify:
+        - reload nginx
+
+    - name: Flush handlers to reload Nginx
+      meta: flush_handlers
+
+    - name: Check landing page certificate issuer
+      shell: "openssl x509 -in /etc/letsencrypt/live/{{ landingpage_domain }}/fullchain.pem -issuer -noout | grep -q 'Let\\'s Encrypt'"
+      register: lp_is_real
+      failed_when: false
+      changed_when: false
+
+    - name: Check backend certificate issuer
+      shell: "openssl x509 -in /etc/letsencrypt/live/{{ backend_domain }}/fullchain.pem -issuer -noout | grep -q 'Let\\'s Encrypt'"
+      register: backend_is_real
+      failed_when: false
+      changed_when: false
+
+    - name: Check AI certificate issuer
+      shell: "openssl x509 -in /etc/letsencrypt/live/{{ ai_domain }}/fullchain.pem -issuer -noout | grep -q 'Let\\'s Encrypt'"
+      register: ai_is_real
+      failed_when: false
+      changed_when: false
+
+    - name: Stop Nginx for standalone Certbot
+      service:
+        name: nginx
+        state: stopped
+      ignore_errors: yes
+
+    - name: Clean ALL certbot state for domains without real certs
+      shell: |
+        for domain in {{ landingpage_domain }} {{ backend_domain }} {{ ai_domain }}; do
+          rm -rf /etc/letsencrypt/live/${domain}*
+          rm -rf /etc/letsencrypt/archive/${domain}*
+          rm -rf /etc/letsencrypt/renewal/${domain}*
+        done
+
+    - name: Obtain SSL certificate for landing page
+      command: >
+        certbot certonly --standalone
+        -d {{ landingpage_domain }}
+        -d {{ landingpage_www_domain }}
+        --non-interactive
+        --agree-tos
+        -m {{ certbot_email }}
+        --keep-until-expiring
+      ignore_errors: yes
+      when: lp_is_real.rc != 0
+
+    - name: Obtain SSL certificate for backend
+      command: >
+        certbot certonly --standalone
+        -d {{ backend_domain }}
+        --non-interactive
+        --agree-tos
+        -m {{ certbot_email }}
+        --keep-until-expiring
+      ignore_errors: yes
+      when: backend_is_real.rc != 0
+
+    - name: Obtain SSL certificate for AI
+      command: >
+        certbot certonly --standalone
+        -d {{ ai_domain }}
+        --non-interactive
+        --agree-tos
+        -m {{ certbot_email }}
+        --keep-until-expiring
+      ignore_errors: yes
+      when: ai_is_real.rc != 0
+
+    - name: Ensure all domains have certificates (real or dummy fallback)
+      shell: |
+        for domain in {{ landingpage_domain }} {{ backend_domain }} {{ ai_domain }}; do
+          if [ ! -f "/etc/letsencrypt/live/${domain}/fullchain.pem" ]; then
+            mkdir -p /etc/letsencrypt/live/${domain}
+            openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
+              -keyout /etc/letsencrypt/live/${domain}/privkey.pem \
+              -out /etc/letsencrypt/live/${domain}/fullchain.pem \
+              -subj "/CN=${domain}"
+          fi
+        done
+
+    - name: Start Nginx
+      service:
+        name: nginx
+        state: started
+
+    - name: Pull and start Docker Compose services
+      shell: |
+        docker compose -f docker-compose.prod.yml pull
+        docker compose -f docker-compose.prod.yml up -d --force-recreate --remove-orphans
+      become: yes
+      args:
+        chdir: "{{ project_path }}"
+
+  handlers:
+    - name: reload nginx
+      service:
+        name: nginx
+        state: reloaded
+
+    - name: restart docker-compose
+      shell: |
+        docker compose -f docker-compose.prod.yml pull
+        docker compose -f docker-compose.prod.yml up -d --force-recreate
+      args:
+        chdir: "{{ project_path }}"

@@ -1,0 +1,99 @@
+# AWS Key Pair
+resource "aws_key_pair" "terraform_key" {
+  key_name   = "terraform-key-wondertales"
+  public_key = file("~/.ssh/id_ed25519.pub")
+}
+
+
+# EC2 instance
+resource "aws_instance" "ec2_server_1" {
+  ami                    = var.ami
+  instance_type          = var.instance_type
+  key_name               = aws_key_pair.terraform_key.key_name
+  vpc_security_group_ids = [aws_security_group.ec2_sg.id]
+
+  root_block_device {
+    volume_size = 25
+    volume_type = "gp3"
+  }
+
+  tags = {
+    Name = "wondertales"
+  }
+}
+
+# Elastic IP
+resource "aws_eip" "static_ip" {
+  instance = aws_instance.ec2_server_1.id
+}
+
+
+# S3 bucket
+resource "aws_s3_bucket" "media" {
+  bucket = var.bucket_name
+}
+
+# CORS configuration to allow fonts and icons to load on different domains
+resource "aws_s3_bucket_cors_configuration" "media" {
+  bucket = aws_s3_bucket.media.id
+
+  cors_rule {
+    allowed_headers = ["*"]
+    allowed_methods = ["GET", "HEAD"]
+    allowed_origins = [
+      "https://wondertaleshub.com",
+      "https://api.wondertaleshub.com",
+      "https://ai.wondertaleshub.com",
+      "http://localhost:8000"
+    ]
+    expose_headers  = ["ETag"]
+    max_age_seconds = 3000
+  }
+}
+
+# S3 bucket public access block - Allow public access
+resource "aws_s3_bucket_public_access_block" "media" {
+  bucket = aws_s3_bucket.media.id
+
+  block_public_acls       = true  # Block ACLs but allow bucket policies
+  block_public_policy     = false # Allow public bucket policies
+  ignore_public_acls      = true  # Ignore ACLs
+  restrict_public_buckets = false # Allow public bucket policies
+}
+
+# S3 bucket policy - Allow public read for static files
+resource "aws_s3_bucket_policy" "media" {
+  bucket = aws_s3_bucket.media.id
+  depends_on = [aws_s3_bucket_public_access_block.media]
+
+  policy = jsonencode({
+    Version = "2012-10-17"
+    Statement = [
+      {
+        Sid       = "PublicReadGetObject"
+        Effect    = "Allow"
+        Principal = "*"
+        Action    = "s3:GetObject"
+        Resource  = [
+          "${aws_s3_bucket.media.arn}/static/*",
+          "${aws_s3_bucket.media.arn}/media/*"
+        ]
+      }
+    ]
+  })
+}
+
+
+# RDS Postgres
+resource "aws_db_instance" "postgres" {
+  engine              = "postgres"
+  instance_class      = "db.t3.micro"
+  allocated_storage   = 20
+  db_name             = "wondertalesdb"
+  username            = var.db_username
+  password            = var.db_password
+  skip_final_snapshot = true
+
+  vpc_security_group_ids = [aws_security_group.ec2_sg.id] 
+  publicly_accessible    = false                          
+}

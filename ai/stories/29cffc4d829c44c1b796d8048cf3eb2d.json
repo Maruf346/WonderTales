@@ -1,0 +1,20 @@
+{
+  "child_profile": {
+    "name": "Amara",
+    "age": 6,
+    "interests": [
+      "dinosaurs",
+      "space"
+    ]
+  },
+  "language": "en",
+  "narrator_voice": "primary_female",
+  "theme": "bedtime",
+  "custom_theme": "string",
+  "cloned_voice_id": null,
+  "story_text": "Once upon a twinkling night, when the stars shimmered like tiny diamonds scattered across a deep blue blanket, a little girl named Amara lay cozy in her bed. She hugged her favorite dinosaur plush toy—a friendly triceratops named Trilly—close to her heart.\n\nAs Amara drifted between wakefulness and sleep, she imagined Trilly glowing softly in the moonlight. Gently, the glowing began to spread, forming a magical bubble around them. To Amara's delight, the bubble lifted them, floating high above her bedroom and into the starry sky. \n\n\"Hold on, Trilly!\" Amara whispered as they soared higher, the world below growing smaller. The stars greeted them with warm, twinkling smiles. \"Welcome, Amara and Trilly,\" they chimed in a melodic harmony.\n\nAbove the clouds, the moon bathed them in its gentle silver glow. Together, they drifted past the planets, each one inviting them to play. They danced on the rings of Saturn, where each step made a soft, musical note. Jupiter's red spot was like a giant, swirling painting that Amara admired with a wide-eyed gaze.\n\nAs they traveled through the cosmic playground, Amara noticed a peculiar star. It shimmered brighter and longer, seeming to beckon her closer. \"Let's visit that one, Trilly!\" she suggested with a giggle, feeling adventurous.\n\nThe bubble carried them to the star, where they discovered a secret. The star was home to tiny, giggling star dinosaurs, their scales shimmering like colorful jewels. The star dinosaurs told Amara and Trilly that they played a special lullaby each night to help everyone in the universe sleep peacefully.\n\nAmara listened closely, and the star dinosaurs began to hum a lullaby so gentle that it made the entire universe feel calm. The sweet melody flowed over Amara and Trilly, wrapping them in comfort like a soft, warm blanket. The soothing song filled Amara's heart with happiness and tranquility.\n\nAs the lullaby's magic took hold, Amara felt herself become sleepy. The bubble began to slowly float back toward home, carrying her and Trilly through the starlit sky. With each gentle downward drift, her eyelids grew heavier.\n\nFinally, as they returned to her bedroom, the bubble softly popped, tucking Amara snugly under her covers. She smiled at Trilly, who now rested beside her pillow. The stars twinkled a gentle goodnight through her window, whispering, \"Sweet dreams, Amara.\"\n\nAnd with that, Amara closed her eyes, dreaming of the stars, dinosaurs, and adventures yet to come. All was peaceful, and she slept soundly, feeling loved and serene.",
+  "audio_url": "http://0.0.0.0:8050/audio/4df051853fa54c92bac96cf979f8e420.mp3",
+  "voice_used": "primary_female",
+  "story_id": "29cffc4d829c44c1b796d8048cf3eb2d",
+  "updated_at": "2026-05-07T19:29:31.818534+00:00"
+}

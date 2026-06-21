@@ -1,0 +1,20 @@
+{
+  "child_profile": {
+    "name": "Amara",
+    "age": 6,
+    "interests": [
+      "dinosaurs",
+      "space"
+    ]
+  },
+  "language": "en",
+  "narrator_voice": "primary_female",
+  "theme": "bedtime",
+  "custom_theme": "string",
+  "cloned_voice_id": null,
+  "story_text": "In a cozy little room painted with stars, Amara snuggled under her soft, dinosaur-patterned blanket. As the moonlight danced through the window, a gentle breeze whispered a secret. It was a night for adventure.\n\nAmara closed her eyes and imagined herself in a world where dinosaurs roamed the stars. There, in the twinkling expanse of space, a friendly triceratops named Luna glided by. Luna's horns sparkled with stardust, and on her back, she carried a nest full of shimmering moon eggs.\n\n\"Amara,\" Luna called softly in a voice as gentle as a lullaby, \"would you like to join me on a journey through the stars?\"\n\nWith a joyful nod, Amara climbed onto Luna's back, feeling the soft warmth of her scales. They soared past glowing planets and colorful comets, through cosmic clouds that fluffed like pillows. Amara's heart was as light as a feather, floating in the serene sea of stars.\n\nThey soon reached a lovely planet shaped like a giant dinosaur egg. On its surface, Amara saw other friendly dinosaurs. There was the giggly stegosaurus, Starley, whose back plates shimmered like rainbows, and Bongo, the gentle brontosaurus with a neck that stretched high to tickle the fluffy white clouds.\n\nThe dinosaurs were having a peaceful picnic under a constellation of cupcakes. Starley offered Amara a cake that tasted of dreams and happiness. As she nibbled, Amara felt a cozy warmth spread through her, like a sleepy sigh.\n\nAs the picnic ended, Luna nudged Amara affectionately. \"It's almost time for bed,\" Luna said softly, her voice like a soft, warm blanket wrapping around Amara.\n\nReluctantly, Amara waved goodbye to her new friends, promising to return another night. With a heart full of starlit joy, she climbed back on Luna's sparkling back. The journey home was gentle and calm, like a lullaby sung by the stars.\n\nBack in her room, Amara snuggled deeper into her dinosaur blanket. She opened her eyes just a little and saw Luna winking from the night sky, a promise of more adventures to come.\n\nAmara sighed contentedly, her eyelids growing heavy. She felt as if she were still floating gently among the stars, surrounded by friendly dinosaurs and twinkling lights. As she drifted into dreams, she knew that the universe was a friendly place, full of wonders she could explore another night.\n\nAnd with that peaceful thought, Amara fell asleep, wrapped in the dreams of dinosaurs and galaxies, her heart at home among the stars.",
+  "audio_url": "http://0.0.0.0:8050/audio/8e925a2cb5124aa4b3e170cd0cad53a5.mp3",
+  "voice_used": "primary_female",
+  "story_id": "03fd1653941345f1a8922f0a60110880",
+  "updated_at": "2026-05-07T19:25:53.537635+00:00"
+}

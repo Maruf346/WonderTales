@@ -1,0 +1,19 @@
+{
+  "child_profile": {
+    "name": "dola",
+    "age": 10,
+    "interests": [
+      "advanture"
+    ]
+  },
+  "language": "en",
+  "narrator_voice": "primary_female",
+  "theme": "adventure",
+  "custom_theme": null,
+  "cloned_voice_id": null,
+  "story_text": "In the heart of a lush, whispering forest, there was a little village called Willowhollow. Here lived a curious girl named Dola. With eyes bright as stars and a heart full of wonder, Dola loved to explore the world around her. Each day brought a new adventure, but the forest always called her back with its promise of secrets waiting to be uncovered.\n\nOne golden afternoon, as the last hints of sunlight danced through the emerald leaves, Dola set out on her trusty bicycle, Dreamweaver. She knew every inch of the forest paths, but today she felt like the trees themselves had something magical to reveal. Pedaling deeper into the woods, she could hear the gentle song of a brook and the rustle of trees sharing their secrets.\n\nDola soon arrived at a peculiar sight she had never noticed before—a shimmering, silvery archway woven from moonbeams and morning mist. Curious and a little breathless, she stepped through, finding herself in a place unlike any other. The air was filled with the soft melodies of tinkling bells, and the flowers glowed with colors she had only dreamed of. Everywhere she looked, she saw creatures from bedtime stories—playful sprites skipping over dew drops, and wise old owls perched on branches, watching with twinkling eyes.\n\nIn this enchanted realm, time seemed to stretch and soften. Dola wandered through fields of lavender, where the scent was so sweet it made her heart sigh. She marveled at the gentle giants—trees that told tales of the stars. One tree, with ancient bark and deep, knowing eyes, whispered a story just for her, about how every adventure carries a little piece of home within it.\n\nAs twilight wove its indigo cloak across the sky, Dola knew it was time to return. Yet, she left with a keepsake, a tiny acorn that glowed softly like a warm hug. It would remind her of the day's wonders and the magic that lived in the world around her. She stepped back through the silvery archway, feeling the gentle embrace of Willowhollow’s familiar night air.\n\nDreamweaver carried her home, the wheels whispering promises of dreams yet to be dreamed. As Dola slipped into bed, the moonlight cuddled around her, soft and serene. With the glowing acorn cradled in her hand, she closed her eyes and imagined the forest's hushed lullabies. Her heart rested, full of dreams and the quiet adventure that awaited in the morning light. Sleep came easily, wrapping her in the comforting magic of her own wondrous world.",
+  "audio_url": "http://localhost:8050/audio/f7da1daa9ea1493ba12881b261ed0205.mp3",
+  "voice_used": "primary_female",
+  "story_id": "673b7a31f45c4a99b0f80a86099f8602",
+  "updated_at": "2026-05-07T20:44:15.968624+00:00"
+}
