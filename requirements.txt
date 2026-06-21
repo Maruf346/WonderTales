@@ -1,0 +1,98 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# WonderTales Hub - Main Requirements (All Services)
+# ═══════════════════════════════════════════════════════════════════════════════
+# This file contains all Python dependencies for both backend and AI services
+# Use: pip install -r requirements.txt
+
+# ───────────────────────────────────────────────────────────────────────────────
+# BACKEND (Django) DEPENDENCIES - v0.1.0
+# ───────────────────────────────────────────────────────────────────────────────
+
+# Django Core
+Django>=6.0.2
+djangorestframework>=3.16.1
+django-cors-headers>=4.9.0
+
+# Database & ORM
+psycopg2-binary>=2.9.11
+
+# Authentication & Authorization
+djangorestframework-simplejwt>=5.5.1
+dj-rest-auth>=7.1.0
+django-allauth>=65.14.3
+
+# Admin Interface
+django-unfold>=0.80.1
+
+# API Documentation
+drf-yasg>=1.21.14
+
+# File Storage (AWS S3)
+boto3>=1.42.49
+django-storages>=1.14.6
+
+# File Processing
+Pillow>=12.1.1
+
+# Static Files & Security
+whitenoise>=6.11.0
+
+# Security
+cryptography>=44.0.0
+
+# Server & Deployment
+gunicorn>=25.1.0
+
+# Configuration Management
+python-decouple>=3.8
+
+# Error Tracking
+sentry-sdk[django]>=2.52.0
+
+# Code Quality & Formatting
+black>=24.4.2
+isort>=5.13.2
+pre-commit>=3.6.0
+
+# Utilities
+django-extensions>=4.1
+requests>=2.32.3
+
+# ───────────────────────────────────────────────────────────────────────────────
+# AI SERVICE (FastAPI) DEPENDENCIES - v0.1.0
+# ───────────────────────────────────────────────────────────────────────────────
+
+# Web Framework
+fastapi>=0.136.1
+uvicorn[standard]>=0.46.0
+
+# Configuration & Environment
+pydantic>=2.13.4
+pydantic-settings>=2.14.0
+python-dotenv>=1.2.2
+
+# HTTP Client
+httpx>=0.28.1
+
+# OpenAI & LLM
+openai>=2.36.0
+
+# Retry Logic
+tenacity>=9.1.4
+
+# File Handling
+aiofiles>=25.1.0
+python-multipart>=0.0.27
+
+# Audio Processing
+pydub>=0.25.1
+mutagen>=1.47.0
+
+# Logging & Monitoring
+structlog>=25.5.0
+sentry-sdk>=2.59.0
+
+# ───────────────────────────────────────────────────────────────────────────────
+# SHARED DEPENDENCIES
+# ───────────────────────────────────────────────────────────────────────────────
+# (Already listed above but used by multiple services)
