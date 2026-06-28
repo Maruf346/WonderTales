@@ -18,9 +18,13 @@ class Settings(BaseSettings):
     openai_api_key: str
     openai_model: str = "gpt-4o"
     openai_max_tokens: int = 1500
-    openai_temperature: float = 0.85
-    openai_presence_penalty: float = 0.6
-    openai_frequency_penalty: float = 0.4
+    openai_temperature: float = 0.92
+    openai_presence_penalty: float = 0.75
+    openai_frequency_penalty: float = 0.50
+    story_diversity_max_attempts: int = 3
+    story_diversity_similarity_threshold: float = 0.58
+    story_moderation_enabled: bool = True
+    story_moderation_regen_attempts: int = 1
 
     # ── ElevenLabs ────────────────────────────────────────────
     elevenlabs_api_key: str
